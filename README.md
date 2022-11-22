@@ -1,1 +1,1 @@
-# elephant
+# ELEPHANT COMMUNITY PROJECT
