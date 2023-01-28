@@ -1,0 +1,39 @@
+- id: tour1
+  title: "1 Day Elephant Adventure Tour"
+  detail: |
+    * \* Visit the  Village and a get a glimpse into the Bunong way of life also some  agriculture farm.
+    * \* Walk with and feed the elephants in the forest (no riding) about 4 km  walking.
+    * \* Swim with and clean the elephants at the forest waterfall if they elephant like.
+    * \* Have freshly prepared lunch at cooking in the forest & relax by the riverside.
+    * \* More with local people and learning about the A sean Elephant.
+
+    **_$45 per person_**
+  cost: $45 per person
+  icon: filter_hdr
+  block: "blockquote-success"
+
+- id: tour2
+  title: "1 Day Jungle Trek at Seima Protected Forest"
+  detail: |
+    * \* Trek 15-20 km through the Seima Protected Forest with Forest Rangers and witness the incredible wilderness of Cambodia.
+    * \* Have freshly prepared lunch in the beautiful surroundings. Lunch is prepared by a Bunong staff member using traditional recipes.
+    * \* Lunch also includes a cooking demonstration of a uniquely prepared 'Bamboo Soup' using forest produce by the Bunong hill tribe.
+
+    **_$75 per person_**
+  cost: $45 per person
+  icon: hiking
+  block: "blockquote-warning"
+
+- id: tour3
+  title: "2 Days Elephant Tour & Jungle Trek (Homestay)"
+  detail: |
+    * \* Trek through the community Protected Forest with local guide (BUNNONG) (15-20 km each day) and witness the incredible wilderness of Cambodia.
+    * \* Experience the forest way of life with the Bunong hill tribe and enjoy meals prepared in their unique traditional ways.
+    * \* Experience the overnight hammock-camp and camp fire while sipping on local rice wine with the Bunong hill tribe (home-stay).
+    * \* Dinner also includes a cooking demonstration of a uniquely prepared 'Bamboo Soup' using forest produce by the Bunong hill tribe.
+
+    **_$85 per person_**
+  cost: $85 per person
+  icon: airline_seat_flat
+  block: "blockquote-danger"
+
