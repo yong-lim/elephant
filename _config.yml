@@ -57,3 +57,5 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+  - CNAME
+  - README.md
