@@ -1,36 +1,13 @@
-  <section class="slider">
-    <ul class="slides">
-      <li>
-        <img src="assets/img/slides/s1.jpg">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h2>Take Your Dream Vacation</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, provident eos dicta unde debitis</h5>
-        </div>
-      </li>
-      <li>
-        <img src="assets/img/slides/s2.jpg">
-        <!-- random image -->
-        <div class="caption left-align">
-          <h2>We Work With All Budgets</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus delectus inventore neque impedit</h5>
-        </div>
-      </li>
-      <li>
-        <img src="assets/img/slides/s3.jpg">
-        <!-- random image -->
-        <div class="caption left-align">
-          <h2>We Work With All Budgets</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus delectus inventore neque impedit</h5>
-        </div>
-      </li>
-      <li>
-        <img src="assets/img/slides/s4.jpg">
-        <!-- random image -->
-        <div class="caption right-align">
-          <h2>Group & Individual Getaways</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum molestias excepturi doloremque</h5>
-        </div>
-      </li>
-    </ul>
-  </section>
+<section class="slider">
+  <ul class="slides">
+  {% for slide in site.data.slides %}
+    <li>
+      <img src="assets/img/slides/{{ slide.photo }}">
+      <div class="caption center-align">
+        <h2>{{ slide.title }}</h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">{{ slide.details }}</h5>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
