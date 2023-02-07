@@ -2,4 +2,11 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-vendor
+
+*.gem
+.bundle
+vendor/
+Gemfile.lock
+
+.DS_Store
+Thumbs.db
