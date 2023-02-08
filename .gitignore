@@ -3,10 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 
-*.gem
 .bundle
 vendor/
 Gemfile.lock
+*.gem
 
 .DS_Store
 Thumbs.db
