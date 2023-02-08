@@ -1,27 +1,66 @@
 - id: tour1
   title: "1 Day Elephant Adventure Tour"
   detail: |
-    * \* Visit the  Village and a get a glimpse into the Bunong way of life also some  agriculture farm.
-    * \* Walk with and feed the elephants in the forest (no riding) about 4 km  walking.
-    * \* Swim with and clean the elephants at the forest waterfall if they elephant like.
-    * \* Have freshly prepared lunch at cooking in the forest & relax by the riverside.
-    * \* More with local people and learning about the A sean Elephant.
+    TOUR HIGHLIGHTS
 
-    **_$45 per person_**
+        · visiting the Phnong village and the culture
+        
+        · feeding and hiking with elephants through the jungle (no elephant riding)
+
+        · swimming with and washing the elephant at waterfall
+
+        · learning about elephants and Bunong culture and traditions
+        
+        · lunch, relaxing and get history about the local mahouts
+
+    **The program:**
+    * \* 8:30am make the tour by car to the village of minority on the hill around the forest . make the tour around the village and learn about the house and Bunong culture.
+    * \* 9:30am  the car stop and  start to walking  down hill to the rain-forest  and visit where the elephant living   . walking in the forest and the beautiful landscape  go to see where is the elephant living near the river .
+    * \* 10:30am meet the elephant and get welcome from the community elephant and community of the mahout.
+    * \* 10:40am elephant come close to you and you can feed them the bananas.
+    * \* 11:00am elephant get out from you they go to the jungle and have food from the nature and you will see the elephant eat bamboo and the free and some time you can see they breaking tree and see they put the ground on the back of themselves.
+    * \* 11:30am Our guide will give to you all the info about elephant history and you learn more about  the mahouts life and they will tell you about the elephant when they get sick and some the traditional the way of the elephant and the Bunong life …(explain by the Bunong guide speaking English)
+    * \* 12:30pm you will have the good lunch and share lunch with the local community taste the food from the jungle cooking …from Bunong lady. You will enjoy with your big family in the forest.
+    * \* 1:00pm you will relaxing and share some experience about you and the community for improve the project.
+    * \* 1:30pm you can go and take the swimming at the waterfall and also yo u can jump too.
+    * \* 2:30 pm the community elephant come to the river and they will wash the elephant you also can help them too and after they will let the elephant wash by them self  and you can see is so nice I can talk about that ….(:
+    * \* 3:30 pm we will walk back to the car and driving back to coffee plantation and visit the tropical fruit like coffee avocado …
+    * \* 5:00pm arrive at Sen monorom and you go to your hotel.
+
+    **_$45 including water, transport, lunch, guide, fee_**
+
+    ![](assets/img/1day-elephant/1.jpg)
+    ![](assets/img/1day-elephant/2.jpg)
+    ![](assets/img/1day-elephant/3.jpg)
+    ![](assets/img/1day-elephant/4.jpg)
+    ![](assets/img/1day-elephant/5.jpg)
   cost: $45 per person
   icon: filter_hdr
   block: "blockquote-success"
 
 - id: tour2
-  title: "1 Day Jungle Trek at Seima Protected Forest"
+  title: "Green House day trip to the jungle waterfall minority cooking show"
   detail: |
-    * \* Trek 15-20 km through the Seima Protected Forest with Forest Rangers and witness the incredible wilderness of Cambodia.
-    * \* Have freshly prepared lunch in the beautiful surroundings. Lunch is prepared by a Bunong staff member using traditional recipes.
-    * \* Lunch also includes a cooking demonstration of a uniquely prepared 'Bamboo Soup' using forest produce by the Bunong hill tribe.
+    * \* 8:00am start the tour by car to a village call Phou Tang.  It’s about $10km. We will visit the village of Phnong people!
+    * \* 8:30am we start the trek to the jungle and we will walk on the hill.  You will see the beautiful views and the nice mountain. The guide will show you many kind of the trees and tell you stories of how the people are living at the jungle. We will cross a beautiful river!
+    * \* 10:00am we arrive at the middle of the jungle.  We will see the bamboo jungle. We will see the rain waterfall and the beautiful cave and the valley.  You will hear beautiful sound of the jungle and if you are lucky you can see some animals like monkey ….
+    * \* 11:30am we arrive at the waterfall he mane like Leng oung and that waterfall we can take the swimming and the guide he start to organize for the cooking show by the traditional way by bamboo soup.
+    * \* 12:30pm we will have lunch at the beautiful waterfall afterward we will rest in the middle of the jungle!
+    * \* 1:30pm we continue the tour to see another waterfall called Leng Ken. That waterfall you can take shower if you like!
+    * \* 2:30pm we continue the tour into jungle by a different way. We will see some big trees and will cross some rive bake to the village!
+    * \* 4:00pm we arrive at the village where we started the tour. We rest at the village and have fun at the village with the family of the tour guide.
+    * \* 4:30pm bake to Senmonorom by car.
 
-    **_$75 per person_**
-  cost: $45 per person
-  icon: hiking
+    **_$35 per person (include the lunch, water, fruit, guide local, transportation) can start with 2 person_**
+
+    ![](assets/img/1day/1.jpg)
+    ![](assets/img/1day/2.jpg)
+    ![](assets/img/1day/3.jpg)
+    ![](assets/img/1day/4.jpg)
+    ![](assets/img/1day/5.jpg)
+    ![](assets/img/1day/6.jpg)
+  cost: $35 per person
+  icon: directions_walk
   block: "blockquote-warning"
 
 - id: tour3
@@ -100,7 +139,7 @@
     ![](assets/img/1n2d-elephant/4.jpg)
     ![](assets/img/1n2d-elephant/5.jpg)
   cost: $85 per person
-  icon: directions_walk
+  icon: hiking
   block: "blockquote-danger"
 
 - id: tour5
