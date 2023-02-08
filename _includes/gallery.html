@@ -1,53 +1,20 @@
-  <!-- Section: Gallery -->
-  <section id="gallery" class="section section-gallery scrollspy">
-    <div class="container">
-      <h4 class="center">
-        <span class="teal-text">Photo Gallery</span>
-      </h4>
+<!-- Section: Gallery -->
+<section id="gallery" class="section section-gallery scrollspy">
+  <div class="container">
+    <h4 class="center">
+      <span class="teal-text">Photo Gallery</span>
+    </h4>
       <div class="row">
+      {% for gal in site.data.gallery %}
         <div class="col s12 m3">
-          <img src="assets/img/gallery/g5.jpg" alt="" class="materialboxed responsive-img">
+          <img src="assets/img/gallery/{{ gal.img }}" alt="" class="materialboxed responsive-img">
         </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g2.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g3.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g4.jpg" alt="" class="materialboxed responsive-img">
-        </div>
+      {% assign remainder = forloop.index | modulo: 4 %}
+      {% if remainder == 0 %}
       </div>
-
       <div class="row">
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g1.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g6.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g7.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g12.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g9.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g10.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g11.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-        <div class="col s12 m3">
-          <img src="assets/img/gallery/g8.jpg" alt="" class="materialboxed responsive-img">
-        </div>
-      </div>
+      {% endif %}
+      {% endfor %}
     </div>
   </section>
 
