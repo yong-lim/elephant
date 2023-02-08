@@ -1,19 +1,19 @@
-<section class="section section-icons grey lighten-4">
-<div class="container">
-  <div class="row">
-      <div class="col s12">
-        <h4 class="teal-text">Pick a tour that suits your adventure appetite!</h4>
-        <ul class="collapsible" data-collapsible="accordion">
-          {% for tour in site.data.tours %}
-          <li>
-            <div class="collapsible-header"><i class="material-icons teal-text">{{ tour.icon }}</i>{{ tour.title }}</div>
-            <div class="collapsible-body"><blockquote >{{ tour.detail | markdownify }}</blockquote></div>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
+<section id="tour" class="section section-gallery scrollspy grey lighten-4">
+  <div class="container">
+    <div class="row">
+        <div class="col s12">
+          <h4 class="teal-text">Pick a tour that suits your adventure appetite!</h4>
+          <ul class="collapsible" data-collapsible="accordion">
+            {% for tour in site.data.tours %}
+            <li>
+              <div class="collapsible-header"><i class="material-icons teal-text">{{ tour.icon }}</i>{{ tour.title }}</div>
+              <div class="collapsible-body"><blockquote >{{ tour.detail | markdownify }}</blockquote></div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+    </div>
   </div>
-</div>
 </section>
 
 <script type="text/javascript">
