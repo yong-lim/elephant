@@ -8,10 +8,10 @@ function formFocus() {
     .addClass('hidden');
 }
 
-function sendEmailFLR(e) {
+function sendGreenhouse(e) {
   e.preventDefault();
 
-  console.log("in sendEmailFLR");
+  console.log("in sendGreenhouse");
   
   // const POST_URL = 'https://script.google.com/macros/s/AKfycbwQ_wdqOBA_Z-29b9s2BZ7GHB3bGhlVzRL2hNwKdp-KoTQ5vhQ5bxz8uinBuKwvKDzP/exec'
   // const postRequest = {
