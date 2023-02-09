@@ -1,0 +1,18 @@
+- title : Home
+  link  : "#slider"
+
+- title : Tour
+  link  : "#tour"
+
+- title : Gallery
+  link  : "#gallery"
+
+- title : Contact
+  link  : "#contact"
+
+- title : About Me
+  link  : "#about"
+
+- title : Community
+  link  : "#community"
+
