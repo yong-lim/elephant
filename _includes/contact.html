@@ -25,13 +25,13 @@
           <h5>Please send details of what you like to do</h5>
           <form onsubmit="sendGreenhouse(event)">
             <div class="input-field">
-              <input type="text" placeholder="Name" required />
+              <input type="text" name="fullname" id="fullname" placeholder="Name" required />
             </div>
             <div class="input-field">
-              <input type="email" placeholder="Email" required />
+              <input type="email" name="email" id="email" placeholder="Email" required />
             </div>
             <div class="input-field">
-              <textarea class="materialize-textarea" placeholder="Enter Message"></textarea>
+              <textarea class="materialize-textarea" name="message" id="message" placeholder="Enter Message"></textarea>
             </div>
             <div id="alert-field" class="alert hidden">
               <p>Uh oh! Something went wrong!</p>

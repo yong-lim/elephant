@@ -21,11 +21,11 @@ function sendGreenhouse(e) {
   //   body: e.target['body-field'].value
   // };
   
-  const POST_URL = 'https://script.google.com/macros/s/AKfycbxYtKqWsyoOoQFIxPq7BisC-2Xnlcrgka9-MAwQyWd-K1LZOjOsQWuQg951OUk4SyOk7w/exec'
+  const POST_URL = 'https://script.google.com/macros/s/AKfycbw8LIqY1yATgL84jVImRa1jg5WtbanUW1ksGZc7G8BJxZczi6jjlky89Vz7DYIfm0M_pA/exec'
   const postRequest = {
-    name: e.target['name-field'].value,
-    email: e.target['email-field'].value,
-    message: e.target['message-field'].value,
+    name: e.target['fullname'].value,
+    email: e.target['email'].value,
+    message: e.target['message'].value,
   };
 
   if(POST_URL) {
