@@ -21,7 +21,7 @@ function sendElephant(e) {
   //   body: e.target['body-field'].value
   // };
   
-  const POST_URL = 'https://script.google.com/macros/s/AKfycbz1vy5AY2oQQiLH9u83fOHTqGiLIq_CH-40jdj0-Qf8xwEZ8KuCMz9W-Mebf43w0BRrog/exec'
+  const POST_URL = 'https://script.google.com/macros/s/AKfycbx0OnaSvCk_2am99WjVqiVRds-xl0NLxgUfQifw4KP5GMELcX5O5HhXN1TGtFsO73_j/exec'
   const postRequest = {
     name: e.target['fullname'].value,
     email: e.target['email'].value,
