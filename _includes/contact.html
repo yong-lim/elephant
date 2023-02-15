@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col s12 m6">
         <div class="card-panel teal white-text center">
-          <i class="material-icons">phone</i>
+          <i class="medium material-icons">phone</i>
           <h5>Call Us For Booking</h5>
           <p> Phone # {{ site.phone-1 }}</p>
           <p> Phone # {{ site.phone-2 }}</p>
@@ -21,7 +21,7 @@
       <div class="col s12 m6">
         <div class="card-panel grey lighten-3">
           <div class="center">
-            <i class="material-icons">email</i>
+            <i class="medium material-icons">email</i>
           </div>
           <h5>Please send details of what you like to do</h5>
           <form onsubmit="sendElephant(event)">
@@ -34,13 +34,13 @@
             <div class="input-field">
               <textarea class="materialize-textarea" name="message" id="message" placeholder="Enter Message"></textarea>
             </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
             <div id="alert-field" class="alert hidden">
-              <p>Uh oh! Something went wrong!</p>
+              <p>Uh oh! Something went wrong!</p>>
             </div>
-            <input type="submit" value="Submit" class="btn">
-            <div id="alert-field" class="alert hidden">
-              <p>Uh oh! Something went wrong!</p>
-            </div>
+            <!-- <input type="submit" value="Submit" class="btn"> -->
           </form>
         </div>
       </div>
