@@ -8,10 +8,10 @@ function formFocus() {
     .addClass('hidden');
 }
 
-function sendGreenhouse(e) {
+function sendElephant(e) {
   e.preventDefault();
 
-  console.log("in sendGreenhouse");
+  console.log("in sendElephant");
   
   // const POST_URL = 'https://script.google.com/macros/s/AKfycbwQ_wdqOBA_Z-29b9s2BZ7GHB3bGhlVzRL2hNwKdp-KoTQ5vhQ5bxz8uinBuKwvKDzP/exec'
   // const postRequest = {
@@ -21,7 +21,7 @@ function sendGreenhouse(e) {
   //   body: e.target['body-field'].value
   // };
   
-  const POST_URL = 'https://script.google.com/macros/s/AKfycbw8LIqY1yATgL84jVImRa1jg5WtbanUW1ksGZc7G8BJxZczi6jjlky89Vz7DYIfm0M_pA/exec'
+  const POST_URL = 'https://script.google.com/macros/s/AKfycbz1vy5AY2oQQiLH9u83fOHTqGiLIq_CH-40jdj0-Qf8xwEZ8KuCMz9W-Mebf43w0BRrog/exec'
   const postRequest = {
     name: e.target['fullname'].value,
     email: e.target['email'].value,
