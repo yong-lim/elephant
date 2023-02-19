@@ -5,10 +5,10 @@
       <div class="col s12 m6">
         <div class="card-panel teal white-text center">
           <i class="medium material-icons">phone</i>
-          <h5>Call Us For Booking</h5>
-          <p> Phone # {{ site.phone-1 }}</p>
-          <p> Phone # {{ site.phone-2 }}</p>
-          <p> WhatsApp # +855 17 905 659</p>
+          <h5>Call us for booking or email us</h5>
+          {% for phone in site.data.phones %}
+          <p>{{ phone.title }} {{ phone.phone }}</p>
+          {% endfor %}
         </div>
         <ul class="collection with-header">
           <li class="collection-header">
@@ -47,3 +47,4 @@
     </div>
   </div>
 </section>
+
