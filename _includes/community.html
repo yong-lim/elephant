@@ -23,7 +23,7 @@
           <ul class="collapsible" data-collapsible="accordion">
             {% for comm in site.data.community %}
             <li>
-              <div class="collapsible-header"><i class="material-icons teal-text">{{ comm.icon }}</i>{{ comm.title }}</div>
+              <div class="collapsible-header"><h5><i class="material-icons teal-text">{{ comm.icon }}</i>{{ comm.title }}</h5></div>
               <div class="collapsible-body">{{ comm.details | markdownify }}</div>
             </li>
             {% endfor %}
