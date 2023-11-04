@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 address-1: Boran Sortha Guesthouse
-address-2: Sen Monorom, Mondulkiri
+address-2: Sen Monorom, Mondulkiri, Cambodia
 address-3: Cambodia
 
 # Build settings
