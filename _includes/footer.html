@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script src="/assets/js/float-panel.js"></script>
   <script src="/assets/js/jordan.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
   <script>
     // Sidenav
     const sideNav = document.querySelector('.sidenav');
@@ -36,6 +36,13 @@
         "Jamacia": null,
         "Europe": null,
       }
+    });
+
+    // Initialize glightbox
+    const lightbox = GLightbox({
+      touchNavigation: true,
+      loop: true,
+      autoplayVideos: true
     });
 
     // Material Boxed

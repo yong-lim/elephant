@@ -7,7 +7,7 @@
       <div class="row">
       {% for gal in site.data.gallery %}
         <div class="col s12 m3">
-          <img src="assets/img/gallery/{{ gal.img }}" alt="" class="materialboxed responsive-img">
+          <img src="assets/img/gallery/{{ gal.img }}" alt="" class="glightbox materialboxed responsive-img">
         </div>
       {% assign remainder = forloop.index | modulo: 4 %}
       {% if remainder == 0 %}
