@@ -67,12 +67,12 @@
 
     **_$35 per person (include the lunch, water, fruit, guide local, transportation) can start with 2 person_**
 
-    ![](assets/img/1day/1.jpg){: class="responsive-img"}
-    ![](assets/img/1day/2.jpg){: class="responsive-img"}
-    ![](assets/img/1day/3.jpg){: class="responsive-img"}
-    ![](assets/img/1day/4.jpg){: class="responsive-img"}
-    ![](assets/img/1day/5.jpg){: class="responsive-img"}
-    ![](assets/img/1day/6.jpg){: class="responsive-img"}
+    ![](assets/img/1day/1.jpg){: data-gallery="t2" class="glightbox responsive-img"}
+    ![](assets/img/1day/2.jpg){: data-gallery="t2" class="glightbox responsive-img"}
+    ![](assets/img/1day/3.jpg){: data-gallery="t2" class="glightbox responsive-img"}
+    ![](assets/img/1day/4.jpg){: data-gallery="t2" class="glightbox responsive-img"}
+    ![](assets/img/1day/5.jpg){: data-gallery="t2" class="glightbox responsive-img"}
+    ![](assets/img/1day/6.jpg){: data-gallery="t2" class="glightbox responsive-img"}
   cost: $35 per person
   icon: directions_walk
   block: "blockquote-warning"
@@ -107,10 +107,10 @@
 
     **_$75 per person (include the food, water, fruit, guide local, transportation ) can start with 2 person_**
 
-    ![](assets/img/1n2d/1.jpg){: class="responsive-img"}
-    ![](assets/img/1n2d/2.jpg){: class="responsive-img"}
-    ![](assets/img/1n2d/3.jpg){: class="responsive-img"}
-    ![](assets/img/1n2d/4.jpg){: class="responsive-img"}
+    ![](assets/img/1n2d/1.jpg){: data-gallery="t3" class="glightbox responsive-img"}
+    ![](assets/img/1n2d/2.jpg){: data-gallery="t3" class="glightbox responsive-img"}
+    ![](assets/img/1n2d/3.jpg){: data-gallery="t3" class="glightbox responsive-img"}
+    ![](assets/img/1n2d/4.jpg){: data-gallery="t3" class="glightbox responsive-img"}
   cost: $85 per person
   icon: airline_seat_flat
   block: "blockquote-danger"
@@ -147,10 +147,10 @@
 
     **_$85 per person (include the food, water, fruit, guide local, transportation, home-stay) can start with 2 person_**
     
-    ![](assets/img/1n2d-elephant/1.jpg){: class="responsive-img"}
-    ![](assets/img/1n2d-elephant/2.jpg){: class="responsive-img"}
-    ![](assets/img/1n2d-elephant/3.jpg){: class="responsive-img"}
-    ![](assets/img/1n2d-elephant/4.jpg){: class="responsive-img"}
+    ![](assets/img/1n2d-elephant/1.jpg){: data-gallery="t4" class="glightbox responsive-img"}
+    ![](assets/img/1n2d-elephant/2.jpg){: data-gallery="t4" class="glightbox responsive-img"}
+    ![](assets/img/1n2d-elephant/3.jpg){: data-gallery="t4" class="glightbox responsive-img"}
+    ![](assets/img/1n2d-elephant/4.jpg){: data-gallery="t4" class="glightbox responsive-img"}
   cost: $85 per person
   icon: hiking
   block: "blockquote-danger"
@@ -205,11 +205,11 @@
 
     **_$120 per person (include the food, water, fruit, guide local, transportation) can start from 2 person_** 
     
-    ![](assets/img/2n3d/1.jpg){: class="responsive-img"}
-    ![](assets/img/2n3d/2.jpg){: class="responsive-img"}
-    ![](assets/img/2n3d/3.jpg){: class="responsive-img"}
-    ![](assets/img/2n3d/4.jpg){: class="responsive-img"}
-    ![](assets/img/2n3d/5.jpg){: class="responsive-img"}
+    ![](assets/img/2n3d/1.jpg){: data-gallery="t5" class="glightbox responsive-img"}
+    ![](assets/img/2n3d/2.jpg){: data-gallery="t5" class="glightbox responsive-img"}
+    ![](assets/img/2n3d/3.jpg){: data-gallery="t5" class="glightbox responsive-img"}
+    ![](assets/img/2n3d/4.jpg){: data-gallery="t5" class="glightbox responsive-img"}
+    ![](assets/img/2n3d/5.jpg){: data-gallery="t5" class="glightbox responsive-img"}
   cost: $120 per person
   icon: forest
   block: "blockquote-danger"
