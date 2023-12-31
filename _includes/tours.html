@@ -7,8 +7,13 @@
           <ul class="collapsible" data-collapsible="accordion">
             {% for tour in site.data.tours %}
             <li>
-              <div class="collapsible-header"><i class="material-icons teal-text">{{ tour.icon }}</i>{{ tour.title }}</div>
-              <div class="collapsible-body"><blockquote >{{ tour.detail | markdownify }}</blockquote></div>
+              <div class="collapsible-header">
+                <i class="material-icons teal-text">{{ tour.icon }}</i>
+                {{ tour.title }}
+              </div>
+              <div class="collapsible-body">
+                <blockquote >{{ tour.detail | markdownify }}</blockquote>
+              </div>
             </li>
             {% endfor %}
           </ul>
