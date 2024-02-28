@@ -26,19 +26,25 @@
           <h5>Please send details of what you like to do</h5>
           <form onsubmit="sendElephant(event)">
             <div class="input-field">
-              <input type="text" name="fullname" id="fullname" placeholder="Name" required />
+              <i class="material-icons prefix">account_box</i>
+              <input type="text" name="fullname" id="fullname" required />
+              <label for="fullname">Name</label>
             </div>
             <div class="input-field">
-              <input type="email" name="email" id="email" placeholder="Email" required />
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" id="email" required />
+              <label for="email">Email</label>
             </div>
             <div class="input-field">
-              <textarea class="materialize-textarea" name="message" id="message" placeholder="Enter Message"></textarea>
+              <i class="material-icons prefix">assignment</i>
+              <textarea class="materialize-textarea" id="message"></textarea>
+              <label for="message">Your Message</label>
             </div>
             <button class="btn waves-effect waves-light" type="submit" name="action">Submit
               <i class="material-icons right">send</i>
             </button>
             <div id="alert-field" class="alert hidden">
-              <p>Uh oh! Something went wrong!</p>>
+              <p>Uh oh! Something went wrong!</p>
             </div>
             <!-- <input type="submit" value="Submit" class="btn"> -->
           </form>
