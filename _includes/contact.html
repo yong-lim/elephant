@@ -23,24 +23,24 @@
           <div class="center">
             <i class="medium material-icons">email</i>
           </div>
-          <h5>Please send details of what you like to do</h5>
-          <form onsubmit="sendElephant(event)">
+          <h5>Please send details of what you like to do . . .</h5>
+          <form id="formID" onsubmit="postElephant(event)">
             <div class="input-field">
               <i class="material-icons prefix">account_box</i>
-              <input type="text" name="fullname" id="fullname" required />
+              <input type="text" name="entry.191027166" id="fullname" required />
               <label for="fullname">Name</label>
             </div>
             <div class="input-field">
               <i class="material-icons prefix">email</i>
-              <input type="email" name="email" id="email" required />
+              <input type="email" name="entry.461087619" id="email" required />
               <label for="email">Email</label>
             </div>
             <div class="input-field">
               <i class="material-icons prefix">assignment</i>
-              <textarea class="materialize-textarea" id="message"></textarea>
+              <textarea class="materialize-textarea" name="entry.385723957" id="message"></textarea>
               <label for="message">Your Message</label>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button id="sendButton" class="btn waves-effect waves-light" type="submit" name="action">Submit
               <i class="material-icons right">send</i>
             </button>
             <div id="alert-field" class="alert hidden">
