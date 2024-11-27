@@ -32,7 +32,7 @@ address-2: Sen Monorom, Mondulkiri, Cambodia
 address-3: Cambodia
 
 # Build settings
-theme: minima
+#theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
