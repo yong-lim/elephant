@@ -34,10 +34,12 @@ function postElephant(e) {
   // console.log("inpostEatery");
   pleaseWaite();
 
+  const formID  = "1FAIpQLSerPJ_qQkFC8v9AbyE_iLCIYVu3qKl1x8hb4zDHMRcbrfenrQ";
+  const formURL = `https://docs.google.com/forms/d/e/${formID}/formResponse`;
   //AJAX request
   $.ajax({
     //The public Google Form url, but replace /view with /formResponse
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLSdkaW9BK9BivxOW3VK6_RBoY6l-n08CjlW7TSWs-OwtqbJIbg/formResponse',     
+    url: formURL,
     data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
