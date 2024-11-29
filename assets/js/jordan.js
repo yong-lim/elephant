@@ -34,6 +34,7 @@ function postElephant(e) {
   // console.log("inpostEatery");
   pleaseWaite();
 
+  // form is in sor.phouen@4lims.com
   const formID  = "1FAIpQLSerPJ_qQkFC8v9AbyE_iLCIYVu3qKl1x8hb4zDHMRcbrfenrQ";
   const formURL = `https://docs.google.com/forms/d/e/${formID}/formResponse`;
   //AJAX request
@@ -43,7 +44,8 @@ function postElephant(e) {
     data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
-    mode: 'cors',
+    mode: 'no-cors',
+    header: { 'Content-Type': 'application/json' },
     statusCode: { //the status code from the POST request
       0: function(data) { //0 is when Google gives a CORS error, don't worry it went through
         //success
