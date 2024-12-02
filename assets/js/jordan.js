@@ -44,8 +44,8 @@ function postElephant(e) {
     data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
-    mode: 'no-cors',
-    header: { 'Content-Type': 'application/json' },
+    mode: 'cors',
+    // header: { 'Content-Type': 'application/json' },
     statusCode: { //the status code from the POST request
       0: function(data) { //0 is when Google gives a CORS error, don't worry it went through
         //success
