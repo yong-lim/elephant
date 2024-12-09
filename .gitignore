@@ -1,10 +1,18 @@
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.bundle
-vendor/
-Gemfile.lock
-*.gem
+
+# Mac OS
 .DS_Store
 Thumbs.db
+
+# Bundler cache
+.bundle
+vendor
+
+# RubyGems
+*.gem
+Gemfile.lock
+
