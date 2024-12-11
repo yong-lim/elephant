@@ -9,37 +9,45 @@
 </script>
 
 <script type="text/javascript">
-  // load the concordion
+  // Begin Initialize Materialize css
   $(document).ready(function(){
+    // Sidenav
+    $('.sidenav').sidenav();
+    // Scrollspy
+    $('.scrollspy').scrollSpy();
+    // Collapsiable
     $('.collapsible').collapsible();
+    // Material Boxed
+    $('.materialboxed').materialbox();
+    // Slider
+    $('.slider').slider({
+      indicators: true,
+      height: 500,
+      transition: 500,
+      interval: 4000
+    });
+    // Datepicker
+    const nextDate = new Date();
+    nextDate.setDate(nextDate.getDate() + 1)
+    $('.datepicker').datepicker({
+      autoClose: true,
+      defaultDate: nextDate,
+      setDefaultDate: true,
+    });
+    // Autocomplete
+    $('input.autocomplete').autocomplete({
+      data: {
+        "Aruba": null,
+        "Cancun Mexico": null,
+        "Hawaii": null,
+        "Florida": null,
+        "California": null,
+        "Jamacia": null,
+        "Europe": null,
+      },
+    });
   });
-
-  // Sidenav
-  const sideNav = document.querySelector('.sidenav');
-  M.Sidenav.init(sideNav, {});
-
-  // Slider
-  const slider = document.querySelector('.slider');
-  M.Slider.init(slider, {
-    indicators: false,
-    height: 500,
-    transition: 500,
-    interval: 4000
-  });
-
-  // Autocomplete
-  <!-- const ac = document.querySelector('.autocomplete'); -->
-  <!-- M.Autocomplete.init(ac, { -->
-    <!-- data: { -->
-      <!-- "Aruba": null, -->
-      <!-- "Cancun Mexico": null, -->
-      <!-- "Hawaii": null, -->
-      <!-- "Florida": null, -->
-      <!-- "California": null, -->
-      <!-- "Jamacia": null, -->
-      <!-- "Europe": null, -->
-    <!-- } -->
-  <!-- }); -->
+  // End Initialize Materialize css
 
   // Initialize glightbox
   const lightbox = GLightbox({
@@ -47,13 +55,5 @@
     loop: true,
     autoplayVideos: true
   });
-
-  // Material Boxed
-  const mb = document.querySelectorAll('.materialboxed');
-  M.Materialbox.init(mb, {});
-
-  // ScrollSpy
-  const ss = document.querySelectorAll('.scrollspy');
-  M.ScrollSpy.init(ss, {});
 
 </script>
