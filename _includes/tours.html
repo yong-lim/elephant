@@ -8,11 +8,11 @@
             {% for tour in site.data.tours %}
             <li>
               <div class="collapsible-header">
-                <i class="material-icons teal-text">{{ tour.icon }}</i>
+                <i class="material-icons teal-text" style="padding-right: 2em";>{{ tour.icon }} file_download</i>
                 {{ tour.title }}
               </div>
               <div class="collapsible-body">
-                <blockquote >{{ tour.detail | markdownify }}</blockquote>
+                <blockquote>{{ tour.detail | markdownify }}</blockquote>
               </div>
             </li>
             {% endfor %}
