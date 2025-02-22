@@ -1,0 +1,193 @@
+.text-primary {
+  color: #56402a;
+}
+
+.btn,
+.bg-primary,
+.box {
+  background-color: #56402a;
+}
+
+.card {
+  border-radius: 11px;
+  border: #00000044 solid 1px;
+
+  .card-image img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .card-action {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.btn {
+  font-weight: 500;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #b48558;
+  }
+}
+
+.btn-white {
+  background-color: white;
+
+  &:hover {
+    background-color: #c0a66d;
+  }
+}
+
+.card .card-content {
+
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  p {
+    margin: 12px 0;
+    text-align: justify;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 500;
+  align-content: center;
+}
+
+
+.box {
+  color: white;
+  padding: 20px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+}
+
+.row {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.modal {
+  width: 90%;
+  max-height: 90vh;
+  margin-top: -5vh;
+  border-radius: 10px;
+
+  .modal-footer {
+    padding: 10px 20px;
+    height: auto;
+  }
+}
+
+.small-info {
+  font-size: 14px;
+}
+
+.icon {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+
+.subtitle {
+  font-size: 16px;
+}
+
+.subheading {
+  font-size: 24px;
+}
+
+.custom-header {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+
+.custom-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.room-type {
+  padding: 20px;
+
+  &:not(:first-child) {
+    margin: 20px 0 0 0;
+    padding-top: 20px;
+    border-top: #0d6738 2px solid;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.contact-info {
+
+  span {
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .icon {
+      margin-right: 15px;
+      width: 32px;
+    }
+  }
+
+  .input-field {
+
+    /* label inline color, label out unfocused color */
+    label,
+    label.active {
+      color: white;
+    }
+
+    textarea:focus {
+      border-bottom: 1px solid white;
+      box-shadow: 0 1px 0 0 white;
+
+      /* label out focused color */
+      +label {
+        color: white;
+      }
+    }
+
+    /* underline focused color */
+    input[type=text]:focus,
+    input[type=email]:focus {
+      border-bottom: 1px solid white;
+      box-shadow: 0 1px 0 0 white;
+
+      /* label out focused color */
+      +label {
+        color: white;
+      }
+    }
+  }
+}
