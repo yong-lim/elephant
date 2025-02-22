@@ -1,4 +1,6 @@
-.text-primary {
+.text-primary,
+.custom-header,
+.custom-title {
   color: #56402a;
 }
 
@@ -6,6 +8,12 @@
 .bg-primary,
 .box {
   background-color: #56402a;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
 }
 
 .card {
@@ -37,6 +45,7 @@
 
 .btn-white {
   background-color: white;
+  color: black;
 
   &:hover {
     background-color: #c0a66d;
@@ -83,6 +92,7 @@
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .modal {
@@ -129,7 +139,7 @@ img {
   margin-top: 20px;
 }
 
-.room-type {
+.tour {
   padding: 20px;
 
   &:not(:first-child) {
