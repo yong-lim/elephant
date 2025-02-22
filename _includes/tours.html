@@ -3,12 +3,12 @@
   <div class="container">
     <div class="row">
         <div class="col s12 m12 l10 offset-l1">
-          <h4 class="teal-text center">Pick a tour that suits your adventure appetite!</h4>
+          <h4 class="center">Pick a tour that suits your adventure appetite!</h4>
           <ul class="collapsible" data-collapsible="accordion">
             {% for tour in site.data.tours %}
             <li>
               <div class="collapsible-header">
-                <i class="material-icons teal-text" style="padding-right: 2em";>{{ tour.icon }} file_download</i>
+                <i class="material-icons" style="padding-right: 2em";>{{ tour.icon }} file_download</i>
                 {{ tour.title }}
               </div>
               <div class="collapsible-body">
