@@ -5,6 +5,7 @@
     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
     ex ea commodo consequat."
   price: "$ 45"
+  code: "e"
 - title: "Jungle Hike & Cooking Show"
   img-cover: "placeholder-2.jpg"
   days: "1 day"
@@ -12,6 +13,7 @@
     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
     ex ea commodo consequat."
   price: "$ 35"
+  code: "j"
 - title: "Jungle Trek Adventure"
   img-cover: "placeholder-2.jpg"
   days: "2 days"
@@ -19,6 +21,7 @@
     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
     ex ea commodo consequat."
   price: "$ 75"
+  code: "jj"
 - title: "Jungle Trek & Elephants Adventure"
   img-cover: "placeholder-2.jpg"
   days: "2 days"
@@ -26,6 +29,7 @@
     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
     ex ea commodo consequat."
   price: "$ 85"
+  code: "je"
 - title: "Big Jungle Trek & Elephants Adventure"
   img-cover: "placeholder-2.jpg"
   days: "3 days"
@@ -33,3 +37,4 @@
     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
     ex ea commodo consequat."
   price: "$ 120"
+  code: "jje"

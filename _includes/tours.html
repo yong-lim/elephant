@@ -3,7 +3,7 @@
 <section class="section scrollspy">
   <div class="container">
     <div class="row center-align">
-      <h2 class="custom-header color-primary">Our Tours</h2>
+      <h2 class="custom-header">Our Tours</h2>
 
       <div class="mobile-scrollable-row">
 
@@ -20,8 +20,8 @@
 
               <!-- Card Image -->
               <div class="card-image">
-                <a href="#modal" class="modal-trigger">
-                  <img src="assets/img/placeholder-2.jpg" alt="" class="responsive-img">
+                <a href="#modal{{ forloop.index }}" class="modal-trigger">
+                  <img src="assets/img/tours/{{ tour.code }}-cover.jpg" alt="" class="responsive-img">
                 </a>
               </div>
 
@@ -30,7 +30,7 @@
                 <span class="card-title text-primary">{{ tour.title }}</span>
                 <span class="subtitle grey-text">{{ tour.days }}</span>
                 <p>{{ tour.short-description }}</p>
-                <a href="#modal" class="btn-flat modal-trigger text-primary">More Information</a>
+                <a href="#modal{{ forloop.index }}" class="btn-flat modal-trigger text-primary">More Information</a>
               </div>
 
               <!-- Card Footer/Action -->
@@ -41,31 +41,31 @@
 
               <!-- Modal -->
               <div id="modal{{ forloop.index }}" class="modal center-align">
-                <div class="room-type">
+                <div class="tour">
 
-                  <!-- Room-Type Images -->
+                  <!-- Modal Images -->
                   <div class="row mobile-scrollable-row">
                     {% for i in (1..3) %}
                     <div class="glightbox col s6 m4">
-                      <!-- <a href="assets/img/rooms/{{ room-type.image-code }}-{{ i }}.jpg" data-gallery="g1"> -->
-                      <img src="assets/img/rooms/{{ room-type.image-code }}-{{ i }}.jpg" alt="" class="responsive-img">
+                      <!-- <a href="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" data-gallery="g1"> -->
+                      <img src="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" alt="" class="responsive-img">
                       <!-- </a> -->
                     </div>
                     {% endfor %}
                   </div>
 
-                  <!-- Room-Type Info -->
+                  <!-- Tour Info -->
                   <div class="container">
-                    <div class="custom-title color-primary">{{ room-type.title }}</div>
-                    <span class="subtitle color-grey">{{ room-type.bed }}</span>
+                    <div class="custom-title">{{ tour.title }}</div>
+                    <span class="subtitle grey-text">{{ tour.bed }}</span>
                     <p style="text-align:justify;">
-                      {{ room-type.description }}
+                      DESCRIPTION:{{ tour.description }}
                     </p>
                   </div>
 
                   <!-- Price, "Book Now", "Close" -->
                   <div class="container space-between">
-                    <span class="price color-primary">{{ room-type.price }}</span>
+                    <span class="price text-primary">{{ tour.price }}</span>
                     <a href="#contact" class="btn modal-close">Book Now</a>
                     <a href="#!" class="modal-close btn-flat" style="padding:0;">Close</a>
                   </div>
