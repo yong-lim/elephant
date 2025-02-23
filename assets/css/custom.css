@@ -39,6 +39,12 @@ a.text-primary:hover {
   color: black;
 }
 
+.custom-nav {
+  background-color: #0a4f2bdd;
+  height: unset;
+  line-height: 60px;
+}
+
 .space-between {
   display: flex;
   justify-content: space-between;
@@ -78,12 +84,18 @@ p {
 
     .subheader {
       margin: 0;
+      font-weight: 400;
     }
 
     .icon {
       position: absolute;
       right: 30px;
     }
+  }
+
+  .active .collapsible-header {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   .collapsible-body {
@@ -108,7 +120,27 @@ p {
     font-weight: 500;
     margin-bottom: 0;
   }
+}
 
+.review {
+  margin: 0 0 22px 0;
+
+  .card-header {
+    padding: 20px 20px 0 20px;
+
+    .custom-title {
+      margin: 0;
+    }
+  }
+
+  .card-content {
+    padding: 5px 20px 20px 20px;
+    text-align: justify;
+  }
+
+  .five-stars {
+    width: 100px;
+  }
 }
 
 .price {
@@ -230,12 +262,6 @@ img.rectangular {
     vertical-align: middle;
     margin-right: 10px;
   }
-}
-
-.custom-nav {
-  background-color: #0a4f2bcc;
-  height: unset;
-  line-height: 60px;
 }
 
 .sidenav img {
