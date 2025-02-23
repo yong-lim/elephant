@@ -1,6 +1,11 @@
+body {
+  background-color: antiquewhite;
+}
+
 .text-primary,
 .custom-header,
-.custom-title {
+.custom-title,
+.subheader {
   color: #56402a;
 }
 
@@ -10,10 +15,18 @@
   background-color: #56402a;
 }
 
+a.text-primary:hover {
+  color: black;
+}
+
 .space-between {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
+}
+
+p {
+  text-align: justify;
 }
 
 .card {
@@ -27,9 +40,11 @@
 
   .card-action {
     background-color: transparent;
-    display: flex;
-    justify-content: space-between;
   }
+}
+
+.mt-lg {
+  margin-top: 60px;
 }
 
 .btn {
@@ -40,6 +55,32 @@
 
   &:hover {
     background-color: #b48558;
+  }
+}
+
+.collapsible {
+  border-radius: 10px;
+
+  .collapsible-header {
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .subheader {
+      margin: 0;
+    }
+
+    .icon {
+      position: absolute;
+      right: 30px;
+    }
+  }
+
+  .collapsible-body {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 }
 
@@ -60,11 +101,9 @@
 
   p {
     margin: 12px 0;
-    text-align: justify;
   }
 
   .card-title {
-    text-transform: uppercase;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 0;
@@ -95,6 +134,33 @@ img {
   border-radius: 10px;
 }
 
+.about {
+  text-align: justify;
+
+  &.row .col {
+    padding: 25px 25px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.bunong p:not(:last-child) {
+  margin: 10px 0 40px 0;
+}
+
+.inline {
+  margin: 0 20px 10px 0;
+  float: left;
+
+  img {
+    width: 200px;
+    border-radius: 100%;
+  }
+}
+
+
 .modal {
   width: 90%;
   max-height: 90vh;
@@ -116,28 +182,34 @@ img {
   max-height: 32px;
 }
 
-
-.subtitle {
-  font-size: 16px;
+.custom-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0 0 0;
 }
 
-.subheading {
-  font-size: 24px;
+.subtitle {
+  font-size: 17px;
 }
 
 .custom-header {
   font-size: 1.8rem;
-  text-transform: uppercase;
   font-family: fantasy;
+  text-transform: uppercase;
 }
 
-.custom-title {
-  font-size: 1.4rem;
+.subheader {
+  font-size: 28px;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 20px;
 }
+
+/* .name {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+} */
+
 
 .tour {
   padding: 20px;
@@ -199,5 +271,52 @@ img {
         color: white;
       }
     }
+  }
+}
+
+
+@media only screen and (min-width: 1300px) {
+  .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .card .card-content .card-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+
+  .modal {
+    width: 70%;
+  }
+
+  .custom-logo {
+    font-size: 1.6rem;
+  }
+
+  nav .nav-wrapper {
+    width: 90%;
+    justify-self: center;
+    align-content: center;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 90%;
+  }
+
+  .box:last-child {
+    margin-bottom: 0;
+  }
+
+  .custom-header {
+    font-size: 2.5rem;
   }
 }

@@ -1,25 +1,107 @@
 <!-- Section: About -->
 <section id="about" class="section section-contact scrollspy">
-  <div class="container">
-    <div class="card-panel bg-primary white-text">
-      <h4>About Me</h4>
-    </div>
+  <div class="container about">
+
+    <h2 class="center custom-header">About Us</h2>
+    <!-- <h3 class="center subheader">OUR TEAM</h3> -->
+
+    <!-- Sam & Torn -->
     <div class="row">
       <div class="col s12 m6">
-        <div class="card-panel grey lighten-3">
-          <img src="assets/img/Samnang.jpg" alt="" class="materialboxed responsive-img">
+        <div class="inline">
+          <img src="assets/img/sam.jpg">
+          <p class="subheader center">SAM</p>
         </div>
+        <p>{{site.data.about.sam}}</p>
       </div>
       <div class="col s12 m6">
-        <div class="card-panel grey lighten-3">
-          <b>Dear friends who want to visit Sen Monorom,</b>
-          <p>My name is SAM NANG. I has been here for 18+ years and I knows the area well. I loves the setting here that is very different from the rest of Cambodia. It has beautiful hills and a much cooler climate. There are numerous scenic waterfalls here spread throughout the forests. I has been worked as a guide for the World Wildlife Foundation(WWF) which sent me to Indonesia to learn about developing an Eco tourism network.</p>
-          <p>I am lived in the forest for three years among the Punong people and speaks their language. I am  worked for three years in an NGO orphanage. The hospitality industry has employed me for over ten years in this area. I have  restaurant has been operating for nine years and last year i am  opened the guesthouse.</p>
-          <p>Sen Monorom, the capital of Mondolkiri, is surrounded by some protected forests which are home to rare monkeys, birds, elephants and numerous other mammals. Seeing the sea of trees from hilltops and experiencing some of the most spectacular sunsets in the world invigorates the body and mind. You become one with the spectacularly multi lighted clouds in peace and quiet.</p>
-          <p>Tourism has increased about thirty percent here.</p>
-          <p>So I decided to start a tour company to allow others to share this and to provide jobs and income to the Phnong minority that live here. Tourists will be able to learn of Phnong culture and heritage and help them develop more sustainable ways of living in the forest. Thus the concept of Ecotourism came so that tourists could come and view the land and people here in a way that would help preserve and improve the environment and provide employment for people living in Mondolkiri.</p>
+        <div class="inline">
+          <img src="assets/img/torn.jpg">
+          <p class="subheader center">TORN</p>
         </div>
+        <p>{{site.data.about.torn}}</p>
       </div>
+    </div>
+
+    <!-- Staff & Mahouts -->
+    <div class="row about">
+      <div class="col s12 m6">
+        <div class="inline">
+          <img src="assets/img/staff.jpg">
+          <p class="subheader center">STAFF</p>
+        </div>
+        <p>{{site.data.about.staff}}</p>
+      </div>
+      <div class="col s12 m6">
+        <div class="inline">
+          <img src="assets/img/mahouts.jpg">
+          <p class="subheader center">MAHOUTS</p>
+        </div>
+        <p>{{site.data.about.mahouts}}</p>
+      </div>
+    </div>
+
+    <!-- Elephants -->
+    <h3 class="center subheader">Our Elephants</h3>
+    <div class="row">
+      <div class="col s12 m4 center">
+        <img src="assets/img/el-hl.jpg" alt="" class="responsive-img">
+        <h4 class="custom-title text-primary">HAPPY-LUCKY</h4>
+        <div class="subtitle grey-text">53 y.o - 5 tons</div>
+        <p>{{site.data.about.happy-lucky}}</p>
+      </div>
+
+      <div class="col s12 m4 center">
+        <img src="assets/img/el-gb.jpg" alt="" class="responsive-img">
+        <h4 class="custom-title text-primary">G'BEN</h4>
+        <div class="subtitle grey-text">38 y.o - 3.5 tons</div>
+        <p>{{site.data.about.g-ben}}</p>
+      </div>
+
+      <div class="col s12 m4 center">
+        <img src="assets/img/el-mr.jpg" alt="" class="responsive-img">
+        <h4 class="custom-title text-primary">MR. PON</h4>
+        <div class="subtitle grey-text">46 y.o - 5 tons</div>
+        <p>{{site.data.about.mr-pon}}</p>
+      </div>
+    </div>
+
+    <div class="bunong mt-lg">
+      <!-- <img src="assets/img/bunong.jpg" alt="" class="responsive-img"> -->
+
+      <!-- The Bunong Community -->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header bg-primary">
+            <h3 class="center subheader white-text">The Bunong Community</h3>
+            <img src="assets/img/icons/icon-down.png" alt="" class="icon">
+          </div>
+          <div class="collapsible-body">
+            {% for point in site.data.about.bunong %}
+            <h4 class="custom-title mt-md">{{ point.title }}</h4>
+            <p>{{ point.text }}</p>
+            {% endfor %}
+          </div>
+        </li>
+      </ul>
+     
+      <!-- Our Project -->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header bg-primary">
+            <img src="assets/img/icons/icon-down.png" alt="" class="icon">
+            <h3 class="center subheader white-text">Our Project</h3>
+            <img src="assets/img/icons/icon-down.png" alt="" class="icon">
+          </div>
+          <div class="collapsible-body">
+            {% for point in site.data.about.project %}
+            <h4 class="custom-title mt-md">{{ point.title }}</h4>
+            <p>{{ point.text }}</p>
+            {% endfor %}
+          </div>
+        </li>
+      </ul>
+
     </div>
   </div>
 </section>
