@@ -147,7 +147,7 @@ img.rectangular {
   }
 
   p {
-    margin: 0;
+    margin: 0 0 20px 0;
   }
 }
 
@@ -160,7 +160,7 @@ img.rectangular {
 }
 
 .inline {
-  margin: 0 20px 10px 0;
+  margin: 0 20px 0 0;
   float: left;
 
   img {
@@ -211,6 +211,35 @@ img.rectangular {
   font-size: 28px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.section {
+  padding-bottom: 60px;
+}
+
+
+.custom-logo {
+  font-size: 1.2rem;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+
+  img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+}
+
+.custom-nav {
+  background-color: #0a4f2bcc;
+  height: unset;
+  line-height: 60px;
+}
+
+.sidenav img {
+  margin: 10px;
 }
 
 /* .name {
@@ -299,6 +328,12 @@ img.rectangular {
   }
 }
 
+/* #contact, */
+#about,
+#tours {
+  top: -50px;
+  position: relative;
+}
 
 @media only screen and (min-width: 1300px) {
   .btn {
@@ -325,10 +360,12 @@ img.rectangular {
   }
 
   nav .nav-wrapper {
-    width: 90%;
+    width: 82%;
     justify-self: center;
-    align-content: center;
-    height: 60px;
+
+    a.btn {
+      margin: 0 0 0 10px;
+    }
   }
 }
 
