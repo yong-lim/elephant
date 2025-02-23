@@ -1,18 +1,38 @@
 body {
-  background-color: antiquewhite;
+  background-color: #cae1b9;
 }
 
 .text-primary,
 .custom-header,
 .custom-title,
 .subheader {
-  color: #56402a;
+  color: #003d26;
 }
 
 .btn,
 .bg-primary,
 .box {
-  background-color: #56402a;
+  background-color: #003d26;
+}
+
+.btn {
+  font-weight: 500;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #159709;
+  }
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+
+  &:hover {
+    background-color: #159709;
+  }
 }
 
 a.text-primary:hover {
@@ -47,17 +67,6 @@ p {
   margin-top: 60px;
 }
 
-.btn {
-  font-weight: 500;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 5px;
-
-  &:hover {
-    background-color: #b48558;
-  }
-}
-
 .collapsible {
   border-radius: 10px;
 
@@ -81,15 +90,6 @@ p {
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-}
-
-.btn-white {
-  background-color: white;
-  color: black;
-
-  &:hover {
-    background-color: #c0a66d;
   }
 }
 
@@ -129,9 +129,14 @@ p {
   margin: 0;
 }
 
-img {
+
+img:not(.icon) {
   width: 100%;
   border-radius: 10px;
+}
+
+img.rectangular {
+  border-radius: 0;
 }
 
 .about {
@@ -146,8 +151,12 @@ img {
   }
 }
 
-.bunong p:not(:last-child) {
+.bunong p {
   margin: 10px 0 40px 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .inline {
@@ -230,7 +239,7 @@ img {
   span {
     font-size: 20px;
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 22px;
 
     &:last-child {
       margin-bottom: 0;
@@ -242,7 +251,23 @@ img {
     }
   }
 
+  .contact-form {
+    text-align-last: end;
+  }
+
+  .test {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    place-content: space-between;
+  }
+
+  .width-48 {
+    width: 48%;
+  }
+
   .input-field {
+    margin: 10px 0 0 0;
 
     /* label inline color, label out unfocused color */
     label,
@@ -277,8 +302,8 @@ img {
 
 @media only screen and (min-width: 1300px) {
   .btn {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .card .card-content .card-title {
@@ -319,4 +344,12 @@ img {
   .custom-header {
     font-size: 2.5rem;
   }
+}
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
