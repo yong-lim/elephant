@@ -55,6 +55,38 @@ p {
   text-align: justify;
 }
 
+.mt-lg {
+  margin-top: 60px;
+}
+
+
+.box {
+  color: white;
+  padding: 20px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+}
+
+.row {
+  margin: 0;
+}
+
+
+.price {
+  font-size: 20px;
+  font-weight: 500;
+  align-content: center;
+}
+
+img:not(.icon) {
+  width: 100%;
+  border-radius: 10px;
+}
+
+img.rectangular {
+  border-radius: 0;
+}
+
 .card {
   border-radius: 11px;
   border: #00000044 solid 1px;
@@ -67,11 +99,81 @@ p {
   .card-action {
     background-color: transparent;
   }
+
+  .card-content {
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    p {
+      margin: 12px 0;
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  }
+}
+.tour-card {
+  .card-content {
+    padding: 0;
+  }
+  
+  .card-info {
+    padding: 10px 24px;
+  }
 }
 
-.mt-lg {
-  margin-top: 60px;
+.review {
+  margin: 0 0 22px 0;
+
+  .card-header {
+    padding: 20px 20px 0 20px;
+
+    .custom-title {
+      margin: 0;
+    }
+  }
+
+  .card-content {
+    padding: 5px 20px 20px 20px;
+    text-align: justify;
+  }
+
+  .five-stars {
+    width: 100px;
+  }
 }
+
+.stretch-y {
+  display: flex;
+  margin-bottom: 22px;
+
+  .col {
+    flex-grow: 1;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      height: 100%;
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .card-action {
+        margin-top: auto;
+      }
+    }
+  }
+}
+
 
 .collapsible {
   border-radius: 10px;
@@ -103,72 +205,6 @@ p {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-}
-
-.card .card-content {
-
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  p {
-    margin: 12px 0;
-  }
-
-  .card-title {
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 0;
-  }
-}
-
-.review {
-  margin: 0 0 22px 0;
-
-  .card-header {
-    padding: 20px 20px 0 20px;
-
-    .custom-title {
-      margin: 0;
-    }
-  }
-
-  .card-content {
-    padding: 5px 20px 20px 20px;
-    text-align: justify;
-  }
-
-  .five-stars {
-    width: 100px;
-  }
-}
-
-.price {
-  font-size: 20px;
-  font-weight: 500;
-  align-content: center;
-}
-
-
-.box {
-  color: white;
-  padding: 20px;
-  margin-bottom: 22px;
-  border-radius: 10px;
-}
-
-.row {
-  margin: 0;
-}
-
-
-img:not(.icon) {
-  width: 100%;
-  border-radius: 10px;
-}
-
-img.rectangular {
-  border-radius: 0;
 }
 
 .about {
