@@ -20,11 +20,11 @@ b:
 c:
   name: "B. M."
   country: "the UK"
-  review: "Brilliant and ethical experience.
+  review: "Brilliant and ethical experience.<br>
     This was a brilliant day - walking in the jungle with elephants and finding out more about how an ethical approach to elephant experiences can support both the local community, the local environment and the local economy.
-    Elephant riding isn't done on the project - but you do meet 2 elephants and get to feed them and follow them while they potter around their jungle home. 
-    Lunch is provided in the price which was excellent. 
-    You can also swim in a waterfall pool and swim with the elephants."
+    <br>Elephant riding isn't done on the project - but you do meet 2 elephants and get to feed them and follow them while they potter around their jungle home. 
+    <br>Lunch is provided in the price which was excellent. 
+    <br>You can also swim in a waterfall pool and swim with the elephants."
 d:
 # Google
   name: "Felicia C."
@@ -33,8 +33,8 @@ d:
 e:
   name: "Michela L."
   country: "Italy"
-  review: "It was a lovely experience, 100% suggested! Nice trekking in the forest, close interaction with the elephants and above all lots of interesting explanations on the project and the local Bunong minority. The visit to a Bunong village is an interesting plus and also the yummy lunch close to the river. A big thanks to our guide Torn !"
+  review: "It was a lovely experience, 100% suggested! Nice trekking in the forest, close interaction with the elephants and above all lots of interesting explanations on the project and the local Bunong minority.<br>The visit to a Bunong village is an interesting plus and also the yummy lunch close to the river. A big thanks to our guide Torn !"
 f:
   name: "Johannes V."
   country: "Italy"
-  review: "Samneng and Torn, the guides, are wonderful, heart at the right place, real expertise mixed with a very pleasant sense of humour. Meeting the elephants is done with a lot of respect and care, and Torn answers all the questions you have. Very nice lunch included."
+  review: "Samneng and Torn, the guides, are wonderful, heart at the right place, real expertise mixed with a very pleasant sense of humour.<br>Meeting the elephants is done with a lot of respect and care, and Torn answers all the questions you have. Very nice lunch included."

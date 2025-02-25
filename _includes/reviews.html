@@ -2,7 +2,7 @@
 <span id="reviews"></span>
 <section class="section section-reviews scrollspy">
   <div class="container reviews">
-    <h2 class="center custom-header">Feedback</h2>
+    <h2 class="center custom-header">Reviews</h2>
 
     <div class="row">
 
@@ -17,23 +17,22 @@
           </a>
         </div>
 
-        <!-- A: MA -->
+        <!-- D: Felicia -->
         <div class="card review">
           <div class="card-header space-between">
             <div>
-              <p class="custom-title text-primary">{{ site.data.reviews.a.name }}</p>
-              <span class="subtitle grey-text">from {{ site.data.reviews.a.country }}</span>
+              <p class="custom-title text-primary">{{ site.data.reviews.d.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.d.country }}</span>
             </div>
             <div style="justify-items:right">
-              <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
-              <div class="subtitle grey-text">on TripAdvisor</div>
+              <img src="assets/img/icons/5-stars.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on Google Maps</div>
             </div>
           </div>
           <div class="card-content">
-            {{ site.data.reviews.a.review }}
+            {{ site.data.reviews.d.review }}
           </div>
         </div>
-
       </div>
 
       <!-- Col #2 -->
@@ -56,12 +55,12 @@
           </div>
         </div>
 
-        <!-- C: BM -->
+        <!-- A: MA -->
         <div class="card review">
           <div class="card-header space-between">
             <div>
-              <p class="custom-title text-primary">{{ site.data.reviews.c.name }}</p>
-              <span class="subtitle grey-text">from {{ site.data.reviews.c.country }}</span>
+              <p class="custom-title text-primary">{{ site.data.reviews.a.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.a.country }}</span>
             </div>
             <div style="justify-items:right">
               <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
@@ -69,7 +68,7 @@
             </div>
           </div>
           <div class="card-content">
-            {{ site.data.reviews.c.review }}
+            {{ site.data.reviews.a.review }}
           </div>
         </div>
 
@@ -96,23 +95,22 @@
           </div>
         </div>
 
-        <!-- D: Felicia -->
+        <!-- C: BM -->
         <div class="card review">
           <div class="card-header space-between">
             <div>
-              <p class="custom-title text-primary">{{ site.data.reviews.d.name }}</p>
-              <span class="subtitle grey-text">from {{ site.data.reviews.d.country }}</span>
+              <p class="custom-title text-primary">{{ site.data.reviews.c.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.c.country }}</span>
             </div>
             <div style="justify-items:right">
-              <img src="assets/img/icons/5-stars.png" alt="" class="five-stars">
-              <div class="subtitle grey-text">on Google Maps</div>
+              <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on TripAdvisor</div>
             </div>
           </div>
           <div class="card-content">
-            {{ site.data.reviews.d.review }}
+            {{ site.data.reviews.c.review }}
           </div>
         </div>
-
 
       </div>
 
