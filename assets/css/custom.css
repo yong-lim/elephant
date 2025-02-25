@@ -55,11 +55,6 @@ p {
   text-align: justify;
 }
 
-.mt-lg {
-  margin-top: 60px;
-}
-
-
 .box {
   color: white;
   padding: 20px;
@@ -111,17 +106,18 @@ img.rectangular {
     }
 
     .card-title {
-      font-size: 15px;
+      font-size: 16px;
+      line-height: 16px;
       font-weight: 500;
-      margin-bottom: 0;
     }
   }
 }
+
 .tour-card {
   .card-content {
     padding: 0;
   }
-  
+
   .card-info {
     padding: 10px 24px;
   }
@@ -148,32 +144,6 @@ img.rectangular {
   }
 }
 
-.stretch-y {
-  display: flex;
-  margin-bottom: 22px;
-
-  .col {
-    flex-grow: 1;
-
-    .card {
-      display: flex;
-      flex-direction: column;
-      margin: 0;
-      height: 100%;
-
-      .card-content {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-      }
-
-      .card-action {
-        margin-top: auto;
-      }
-    }
-  }
-}
-
 
 .collapsible {
   border-radius: 10px;
@@ -191,7 +161,8 @@ img.rectangular {
 
     .icon {
       position: absolute;
-      right: 30px;
+      right: 15px;
+      width: 20px;
     }
   }
 
@@ -210,12 +181,18 @@ img.rectangular {
 .about {
   text-align: justify;
 
-  &.row .col {
-    padding: 25px 25px;
-  }
-
   p {
-    margin: 0 0 20px 0;
+    margin: 0 0 40px 0;
+  }
+}
+
+.inline {
+  margin: 0 20px 0 0;
+  float: left;
+
+  img {
+    width: 100px;
+    border-radius: 100%;
   }
 }
 
@@ -226,17 +203,6 @@ img.rectangular {
     margin-bottom: 0;
   }
 }
-
-.inline {
-  margin: 0 20px 0 0;
-  float: left;
-
-  img {
-    width: 200px;
-    border-radius: 100%;
-  }
-}
-
 
 .modal {
   width: 90%;
@@ -276,15 +242,11 @@ img.rectangular {
 }
 
 .subheader {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
+  margin: 10px 0;
 }
-
-.section {
-  padding-bottom: 60px;
-}
-
 
 .custom-logo {
   font-size: 1.2rem;
@@ -328,9 +290,10 @@ img.rectangular {
 .contact-info {
 
   span {
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     margin-bottom: 22px;
+    overflow-x: auto;
 
     &:last-child {
       margin-bottom: 0;
@@ -338,15 +301,10 @@ img.rectangular {
 
     .icon {
       margin-right: 15px;
-      width: 32px;
     }
   }
 
-  .contact-form {
-    text-align-last: end;
-  }
-
-  .test {
+  .name-email {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -360,36 +318,45 @@ img.rectangular {
   .input-field {
     margin: 10px 0 0 0;
 
-    /* label inline color, label out unfocused color */
-    label,
-    label.active {
+    input {
       color: white;
     }
 
+    /* label inline color */
+    label {
+      color: white;
+    }
+
+    /* label out unfocused color */
+    label.active {
+      color: #afff9e;
+    }
+
     textarea:focus {
-      border-bottom: 1px solid white;
-      box-shadow: 0 1px 0 0 white;
+      border-bottom: 1px solid #afff9e;
+      box-shadow: 0 1px 0 0 #afff9e;
 
       /* label out focused color */
       +label {
-        color: white;
+        color: #afff9e;
       }
     }
 
     /* underline focused color */
     input[type=text]:focus,
     input[type=email]:focus {
-      border-bottom: 1px solid white;
-      box-shadow: 0 1px 0 0 white;
+      border-bottom: 1px solid #afff9e;
+      box-shadow: 0 1px 0 0 #afff9e;
 
       /* label out focused color */
       +label {
-        color: white;
+        color: #afff9e;
       }
     }
   }
 }
 
+/* To auto-scroll to the title when clicking to link #id */
 /* #contact, */
 #about,
 #tours {
@@ -397,18 +364,82 @@ img.rectangular {
   position: relative;
 }
 
-@media only screen and (min-width: 1300px) {
-  .btn {
-    padding-left: 40px;
-    padding-right: 40px;
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.stretch-y {
+  display: flex;
+  margin-bottom: 22px;
+
+  .col {
+    flex-grow: 1;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      height: 100%;
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .card-action {
+        margin-top: auto;
+      }
+    }
+  }
+}
+
+
+.mobile-scrollable-row .col {
+  width: 300px;
+  flex: 0 0 300px;
+}
+
+
+.mt-lg {
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 90%;
   }
 
-  .card .card-content .card-title {
-    font-size: 18px;
+  .box:last-child {
+    margin-bottom: 0;
+  }
+
+  .custom-header {
+    font-size: 2.5rem;
+  }
+
+  .mobile-scrollable-row .col {
+    width: 400px;
+    flex: unset;
+  }
+
+  img.diagram {
+    width: 65%;
   }
 }
 
 @media only screen and (min-width: 993px) {
+
+  .mt-lg {
+    margin-top: 60px;
+  }
+
   .container {
     width: 90%;
   }
@@ -429,26 +460,61 @@ img.rectangular {
       margin: 0 0 0 10px;
     }
   }
+
+  .inline {
+    img {
+      width: 200px;
+    }
+  }
+
+  .about {
+    &.row .col {
+      padding: 25px 25px;
+    }
+  }
+
+  .subheader {
+    font-size: 26px;
+  }
+
+  .collapsible .collapsible-header .icon {
+    right: 30px;
+    width: 24px;
+  }
+
+  .contact-info {
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  /* .mobile-scrollable-row .col {
+    width: 100%;
+  } */
+
 }
 
-@media only screen and (min-width: 601px) {
-  .container {
-    width: 90%;
+
+@media only screen and (min-width: 1300px) {
+  .btn {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
-  .box:last-child {
-    margin-bottom: 0;
-  }
-
-  .custom-header {
-    font-size: 2.5rem;
+  .card .card-content .card-title {
+    font-size: 18px;
   }
 }
 
-.parallax {
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* mobile-scrollable-row */
+@media only screen and (max-width: 992px) {
+  .mobile-scrollable-row {
+    overflow-x: auto;
+    display: flex;
+
+    .row {
+      display: flex;
+    }
+  }
 }
