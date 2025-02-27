@@ -1,3 +1,7 @@
+html {
+  position: relative;
+}
+
 body {
   background-color: #cae1b9;
 }
@@ -37,6 +41,11 @@ body {
 
 a.text-primary:hover {
   color: black;
+}
+
+nav .nav-wrapper {
+  width: 100%;
+  padding: 0 20px;
 }
 
 .custom-nav {
@@ -107,7 +116,7 @@ img.rectangular {
 
     .card-title {
       font-size: 16px;
-      line-height: 16px;
+      line-height: 20px;
       font-weight: 500;
     }
   }
@@ -141,6 +150,7 @@ img.rectangular {
 
   .five-stars {
     width: 100px;
+    padding-top: 5px;
   }
 }
 
@@ -232,12 +242,12 @@ img.rectangular {
 }
 
 .subtitle {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .custom-header {
   font-size: 1.8rem;
-  font-family: fantasy;
+  font-family: "Nunito";
   text-transform: uppercase;
 }
 
@@ -248,11 +258,26 @@ img.rectangular {
   margin: 10px 0;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.modal-info {
+  text-align: justify;
+  margin-bottom: 30px;
+
+  h4 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+}
+
 .custom-logo {
   font-size: 1.2rem;
-  font-family: "Noto Serif", serif;
+  font-family: "Nunito";
   font-weight: 400;
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
 
   img {
     width: 40px;
@@ -262,8 +287,28 @@ img.rectangular {
   }
 }
 
-.sidenav img {
-  margin: 10px;
+.sidenav {
+  .custom-logo {
+    font-size: 1rem;
+  }
+
+  img {
+    margin: 10px;
+  }
+}
+
+footer .footer-bg {
+  margin-bottom: -5px;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  place-self: center;
 }
 
 /* .name {
@@ -358,6 +403,7 @@ img.rectangular {
 
 /* To auto-scroll to the title when clicking to link #id */
 /* #contact, */
+#reviews,
 #about,
 #tours {
   top: -50px;
@@ -411,6 +457,11 @@ img.rectangular {
   margin-top: 30px;
 }
 
+img.cover {
+  height: 100vh;
+  object-fit: cover;
+}
+
 @media only screen and (min-width: 601px) {
   .container {
     width: 90%;
@@ -448,12 +499,7 @@ img.rectangular {
     width: 70%;
   }
 
-  .custom-logo {
-    font-size: 1.6rem;
-  }
-
   nav .nav-wrapper {
-    width: 82%;
     justify-self: center;
 
     a.btn {
@@ -504,6 +550,19 @@ img.rectangular {
 
   .card .card-content .card-title {
     font-size: 18px;
+  }
+
+  nav .nav-wrapper {
+    width: 82%;
+    padding: 0;
+
+    nav ul a {
+      padding: 0 10px;
+    }
+  }
+
+  .custom-logo {
+    font-size: 1.4rem;
   }
 }
 
