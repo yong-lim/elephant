@@ -21,23 +21,25 @@
           {% for nav in site.data.nav %}
           <li><a href="{{ nav.link }}" style="text-transform: uppercase;">{{ nav.title }}</a></li>
           {% endfor %}
-          <a href="#contact" class="btn btn-white text-primary">Book Now</a>
+          <a href="#contact" class="btn btn-white text-primary">Book a Visit</a>
         </ul>
       </div>
     </nav>
   </div>
 
   <!-- Mobile Side-Navbar -->
-  <div class="sidenav" id="mobile-nav">
+  <div class="sidenav bg-primary" id="mobile-nav" style="padding-top: 10px;">
 
-    <a href="#home" class="custom-logo" style="display: inline;">
-      <img src="assets/img/logo-2.png" alt="">
-      <span style="display: inline-block; vertical-align: middle;" class="color-primary">{{ site.title }}</span>
+    <a href="#home" class="custom-logo white-text">
+      <img src="assets/img/logo.png" alt="">
+      <span style="display: inline-block; vertical-align: middle;"
+        class="color-primary">Elephant<br>Community<br>Project</span>
     </a>
 
     <ul>
       {% for nav in site.data.nav %}
-      <li><a href={{ nav.link }} class="sidenav-close" style="text-transform: uppercase;">{{ nav.title }}</a></li>
+      <li><a href={{ nav.link }} class="sidenav-close white-text" style="text-transform: uppercase;">{{ nav.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
