@@ -1,42 +1,216 @@
 - title: "Elephant Sanctuary Tour"
   days: "1 Day"
-  price: "$ 45"
+  price: "$ 50"
   code: "e"
-  short-description: "Spend a day hiking in our elephant forest sanctuary, hand-feeding and washing the elephants, supporting the project and the community and enjoying a riverside lunch. End the trip with a visit to a Bunong village."
-  description: "TODO"
   btn-text: "Book Now"
+  short-description: "Spend a day hiking in our elephant forest sanctuary, hand-feeding and washing the elephants, supporting the project and the community and enjoying a riverside lunch. End the trip with a visit to a Bunong village."
+  description: 
+  highlights: >
+    Spend a day at the working elephant rescue sanctuary. 
+    <br>Contribute to the rehabilitation of working elephants and a community-based conservation project in Mondulkiri.
+    <br>Hike through local forests and natural habitats.
+    <br>Hand-feed elephants and observe them in their natural habitat. No performance tricks or elephant riding are offered.
+    <br>Enjoy a lunch break at the sanctuary's base camp by the O'tey River, with the opportunity to swim at a waterfall.
+    <br>Visit an indigenous village and learn about their unique culture and traditions.
+  itinerary: >
+    <b>8:20 AM:</b> Meeting in Sen Monorom. 
+    We travel south to our Elephant Sanctuary Forest (12 km / 20 min). 
+    The drive offers scenic views of the community forest which our project helps to protect. 
+    <br><b>9:00 AM:</b> We begin with a short hike down the valley. Before meeting the elephants, the guide explains the safety rules, the project goals and the importance of protecting Mondulkiri’s wildlife and habitat. 
+    We meet and feed the elephants and follow them to observe how they roam freely and eat in the jungle. We observe their natural behaviors, such as how they consume bamboo, grasses, and various plant roots for natural medicine. 
+    This is an excellent opportunity to capture photos of the elephants in their natural environment. 
+    <br><b>12:00 PM:</b> We hike to the Sanctuary’s base area, located by the river, to enjoy a local meal. After lunch, you can ask all the questions you have to the guide and relax in a hammock while enjoying jungle views. 
+    You might spot birds and other wildlife, and you can swim at our beautiful waterfall. 
+    <br><b>2:00 PM:</b> The mahouts (caretakers) guide the elephants into the water for their daily shower and mud bath. The elephants enjoy grooming, scratching against trees, and playing in the mud. You can swim with the elephants, it is an unforgettable (and potentially messy) experience. 
+    Mud coating is essential for keeping an elephant’s skin moist, protected, and healthy. 
+    <br><b>3:00 PM:</b> We say goodbye to the elephants and the Sanctuary team, and we hike out of the forest back to the car and drive to the Bunong minority village (Putang). 
+    You receive a warm welcome from the villagers and can explore the traditional Bunong houses to gain insight into their village life. The guide tour explains, translates and answers any questions you may have about the Bunong people. 
+    After the visit, we return to Sen Monorom. 
+    <br><br>
+    Please note that the schedule may be subject to change due to extreme weather or other unforeseen circumstances.
+    <br><br>
+    <br>Hike Level: Moderate, family-friendly and suitable for children over 8 y.o.
+    <br>Group Size: 2-10
+    <br>Children of up to 10 years get a 50% discount.
+
 - title: "Jungle Hike & Cooking Show"
   days: "1 Day"
-  short-description: "Explore Mondulkiri's wilds: hike lush forests, discover vibrant flora & fauna, swim in waterfalls, explore caves, and savor a delicious lunch. Immerse yourself in local culture with a village visit, learning their unique traditions and way of life."
   price: "$ 35"
   code: "j"
-  description: "TODO"
   btn-text: "Book Now"
+  short-description: "Explore Mondulkiri's wilds: hike lush forests, discover vibrant flora & fauna, swim in waterfalls, explore caves, and savor a delicious lunch. Immerse yourself in local culture with a village visit, learning their unique traditions and way of life."
+  description:
+  highlights: >
+    Hike through local forests and natural habitats.
+    <br>Discover the flora and the fauna of the area.
+    <br>Swim in the waterfall and visit a cave.
+    <br>Enjoy a delicious lunch.
+    <br>Visit an indigenous village and learn about their unique culture and traditions.
+  itinerary: >
+    <br><b>8:00 AM:</b> Meeting in Sen Monorom.
+    The tour begins with a car ride to Putang village (10 km / 15 min). 
+    <br><b>8:30 AM:</b> We visit the village of the Bunong people, and we begin our trek into the jungle, hiking uphill. 
+    You can enjoy beautiful views of the mountains. The guide points out various trees and shares stories about how people live in the jungle.
+    <br><b>10:00 AM:</b> We arrive in the middle of the jungle, where we can see a bamboo forest, a rainforest waterfall, a beautiful cave, and a valley. 
+    You can hear the wonderful sounds of the jungle, and if you are lucky, you might spot some animals, such as monkeys.
+    <br><b>11:30 AM:</b> We reach the Leng Oung waterfall, where you can swim.
+    The guide begins preparing a traditional meal, including the bamboo soup cooked in a traditional way.
+    <br><b>12:30 PM:</b> We have lunch at the beautiful waterfall and then rest in the middle of the jungle.
+    <br><b>1:30 PM:</b> We continue the tour to another waterfall called Leng Ken, where you can take a shower.
+    <br><b>2:30 PM:</b> We hike back taking a different route, seeing some large trees and crossing several rivers.
+    <br><b>4:00 PM:</b> We arrive back at the village where we started the tour. We rest and spend some time in the village.
+    <br><b>4:30 PM:</b> Return to Sen Monorom by car.
+
 - title: "Jungle Trek Adventure"
   days: "2 Days"
   price: "$ 75"
   code: "jj"
-  short-description: "TODO"
-  description: "TODO"
   btn-text: "Book Now"
+  short-description: "This two-day jungle adventure offers deep immersion into Mondulkiri's wilderness, featuring trekking to stunning waterfalls, traditional jungle camping and cooking, and opportunities for wildlife spotting. Experience the region's natural beauty and local culture."
+  description:
+  highlights: >
+    Hike through local forests and natural habitats.
+    <br>Discover the flora and the fauna of the area.
+    <br>Swim in the waterfall and visit a cave.
+    <br>Enjoy a delicious lunch.
+    <br>Visit an indigenous village and learn about their unique culture and traditions.
+    <br>Spend a night in a hammock in the jungle.
+  itinerary: >  
+    <b>Day 1: Jungle Trekking #1</b>
+    <br><b>7:30 AM:</b> Meeting in Sen Monorom. The tour begins with a car ride to Dom Rei Chon village ( 10 km / 15 min), where we visit the village.
+    <br><b>8:00 AM:</b> We begin our trek into the jungle, hiking uphill and enjoying beautiful views of the mountains. You can hear birds singing. 
+    The guide points out various trees and shares stories about how people live in the jungle.
+    <br><b>10:00 AM:</b> We arrive at Kbal Prei waterfall, a beautiful and unique waterfall, where it is possible to swim.
+    <br><b>11:30 AM:</b> We have lunch at the waterfall and rest in the shade of large trees.
+    <br><b>12:30 PM:</b> We continue the jungle trek, crossing a river and exploring the beautiful forest with its large trees and green landscapes.
+    <br><b>2:30 PM:</b> We arrive at our campsite, near another beautiful waterfall where you can swim. 
+    The guide prepares our traditional jungle camp (you are welcome to help, or you can swim in the waterfall). Later, the guide prepares a traditional meal, including the bamboo soup and a BBQ. You are welcome to watch and learn how to cook these dishes.
+    <br><b>4:30 PM:</b> We take a trip into the jungle to look for animals such as antelopes, monkeys, or wild pigs.
+    <br><b>5:30 PM:</b> We enjoy a delicious dinner together in the jungle.
+    <br><b>8:30 PM:</b> We return to the campsite, and we might have a party with rice wine!
+    
+    <br><br>
+    <b>Day 2: Jungle Trekking #2</b>
+    <br><b>7:30 AM:</b> We have breakfast in the jungle with bamboo cup coffee.
+    <br><b>8:30 AM:</b> We begin our trek into the jungle. 
+    <br><b>10:00 AM:</b> We arrive in the middle of the jungle, where we see a bamboo forest, a rainforest waterfall, a beautiful cave, and a valley. 
+    You can hear the wonderful sounds of the jungle, and if you are lucky, you might spot some animals, such as monkeys.
+    <br><b>11:30 AM:</b> We reach the Leng Oung waterfall, where you can swim. The guide begins preparing a traditional meal.
+    <br><b>12:30 PM:</b> We have lunch at the beautiful waterfall and then rest in the middle of the jungle.
+    <br><b>1:30 PM:</b> We continue the tour to another waterfall called Leng Ken, where you can take a shower.
+    <br><b>2:30 PM:</b> We continue the jungle trek along a different route, seeing some large trees and crossing several rivers..
+    <br><b>4:00 PM:</b> We arrive at Putang village and we have a walk around the village.
+    <br><b>5:00 PM:</b> We return to Sen Monorom.
+
 - title: "Jungle Trek & Elephants Adventure"
   days: "2 Days"
   price: "$ 85"
   code: "je"
-  short-description: "TODO"
-  description: "TODO"
   btn-text: "Book Now"
+  short-description: "This two-day tour immerses you in Mondulkiri's natural beauty and Bunong culture, featuring jungle treks to hidden waterfalls and ethical elephant encounters. Experience local life, learn about conservation, and enjoy the region's stunning landscapes."
+  description:
+  highlights: >
+    Jungle trekking.
+    <br>Visiting and swimming waterfalls.
+    <br>Experiencing Bunong culture in Putang village.
+    <br>Learning about Bunong culture in another village.
+    <br>Observing and feeding elephants in their natural habitat.
+    <br>Learning about elephant behavior, care, and the project's goals.
+    <br>Swim with the elephants.
+    <br>Visiting a coffee plantation and seeing tropical fruits.
+  itinerary: >
+    <b>Day 1: Jungle Trekking</b>
+    <br><b>8:30 AM:</b> Meeting in Sen Monorom. The tour starts with a car ride to Orang village (approximately 14 km / 20 min).
+    <br><b>9:00 AM:</b> We begin the trek into the jungle, hiking uphill and enjoying beautiful views of the mountains. 
+    The guide points out various trees and shares stories about how people live in the jungle.
+    <br><b>10:00 AM:</b> We arrive at the Leng Ken and Leng Ong waterfalls. These beautiful and rarely seen waterfalls offer a natural swimming pool where it is possible to swim and dive.
+    <br><b>12:00 PM:</b> We have lunch by another waterfall, Bath Cove, and rest in the shade of large trees.
+    <br><b>1:00 PM:</b> We continue the jungle trek, crossing a river and exploring the beautiful forest with its large trees.
+    <br><b>4:30 PM:</b> We arrive at Putang village, where we have a walk, visit a traditional Bunong house, and learn about their culture and stories.
+    <br><b>5:30 PM:</b> We have dinner with a local family and observe how they cook in bamboo.
+    <br><b>7:30 PM:</b> We enjoy a party with the family.
+    
+    <br><br>
+    <b>Day 2: Elephant Sanctuary Visit</b>
+    <br><b>7:30 AM:</b> We have breakfast at the village and say goodbye to the family.
+    <br><b>8:00 AM:</b> We travel by car to another minority village.
+    <br><b>8:30 AM:</b> We visit the village and learn about the houses and Bunong culture.
+    <br><b>9:30 AM:</b> We begin walking into the valley to visit the elephants' habitat.
+    <br><b>10:00 AM:</b> Before meeting the elephants, the guide explains the safety rules, the project goals and the importance of protecting Mondulkiri’s wildlife and habitat.
+    We meet and feed the elephants and follow them to observe how they roam freely and eat in the jungle. We observe their natural behaviors, such as how they consume bamboo, grasses, and various plant roots for natural medicine.
+    This is an excellent opportunity to capture photos of the elephants in their natural environment.
+    <br><b>12:30 PM:</b> We have lunch by the river and enjoy jungle-cooked food prepared by a Bunong family.
+    <br><b>1:00 PM:</b> You can ask all the questions you have to the guide and share experiences with the community to help improve the project. The guide shares information about elephant history, the mahouts' lives, elephant care, and Bunong life.
+    <br><b>1:30 PM:</b> You can swim at a nearby waterfall and relax.
+    <br><b>2:00 PM:</b> The elephants come to the river to be washed. You can help the mahouts, and then watch the elephants enjoy bathing themselves.
+    <br><b>3:30 PM:</b> We walk back to the car and drive to a coffee plantation, where we will visit and see tropical fruits like coffee and avocados.
+    <br><b>5:00 PM:</b> We arrive back in Sen Monorom.
+
+
 - title: "Big Jungle Trek & Elephants Adventure"
   days: "3 Days"
   price: "$ 120"
   code: "jje"
-  short-description: "TODO"
-  description: "TODO"
   btn-text: "Book Now"
+  short-description: "This three-day tour provides a comprehensive experience of Mondulkiri, combining jungle trekking and waterfall exploration with authentic cultural immersion. You'll engage with the Bunong people through village visits, homestays, and ethical elephant encounters, gaining insight into their traditions and the region's natural beauty."
+  description:
+  highlights: >
+    Jungle trekking (bamboo forest, cave, streams, valleys).
+    <br>Discover and swim in multiple waterfalls.
+    <br>Traditional jungle camping and cooking (bamboo soup, BBQ, bamboo coffee).
+    <br>Homestay in Putang village, including a traditional dinner, Bunong wine, and sleeping in a traditional house.
+    <br>Visit a Bunong village and learn about their culture.
+    <br>Ethical elephant encounter: feeding, observing natural behaviors, and bathing.
+    <br>Learning about elephant history, mahout life, and Bunong traditions.
+    <br>Lunch with the local community.
+  itinerary: >
+    <b>Day 1: Jungle Trekking #1</b>
+    <br><b>7:30 AM:</b> Meeting in Sen Monorom. The tour starts with a car ride to Dom Rei Chon village (10km / 15min) to visit the Bunong people.
+    <br><b>8:00 AM:</b> We begin trekking into the jungle. As you hike uphill, you can enjoy beautiful views of the mountains and listen to the birds singing. The guide identifies various trees and shares stories about jungle life.
+    <br><b>10:00 AM:</b> We arrive at Kbal Prei waterfall, a beautiful and unique waterfall. You can enjoy swimming in the natural pool and.
+    <br><b>11:30 AM:</b> We have lunch at the waterfall and relax in the shade of large trees.
+    <br><b>12:30 PM:</b> We continue trekking through the jungle, crossing a river and exploring the forest with its large trees and green landscapes.
+    <br><b>2:30 PM:</b> We arrive at the campsite near another beautiful waterfall where it is possible to swim. The guide sets up the camp in a traditional way (you can help or swim in the waterfall).
+    <br><b>3:30 PM:</b> The guide prepares a traditional meal, including the bamboo soup and a BBQ. You can watch and learn how to cook these dishes.
+    <br><b>4:30 PM:</b> We take a trip into the jungle to look for animals like antelopes, monkeys, or wild pigs.
+    <br><b>5:30 PM:</b> We enjoy dinner with the group and the guide in the jungle.
+    <br><b>8:30 PM:</b> We return to the campsite and we might have a party with rice wine!
+    
+    <br><br>
+    <b>Day 2: Jungle Trekking #2</b>
+    <br><b>7:30 AM:</b> We have breakfast in the jungle with bamboo cup coffee.
+    <br><b>8:30 AM:</b> We trek into the jungle, hiking uphill and enjoying mountain views. 
+    <br><b>10:00 AM:</b> We arrive in the middle of the jungle. We see the bamboo forest, rainforest waterfall, cave, and valley. We listen to the jungle sounds, and if you're lucky, you might see monkeys.
+    <br><b>11:30 AM:</b> We reach the Leng Oung waterfall, where it is possible to swim. The guide prepares a traditional meal.
+    <br><b>12:30 PM:</b> We have lunch at the waterfall and rest.
+    <br><b>1:30 PM:</b> We continue to Leng Ken waterfall, where it is possible to take a shower.
+    <br><b>2:30 PM:</b> We trek back to the village through the jungle along a different route, seeing big trees and crossing rivers.
+    <br><b>4:00 PM:</b> We arrive at Putang village, where we have a walk.
+    <br><b>5:30 PM:</b> We take a shower at the village, experiencing how the villagers do it.
+    <br><b>6:30 PM:</b> We have dinner with the family.
+    <br><b>7:30 PM:</b> We enjoy a party with Bunong wine.
+    <br><b>8:30 PM:</b> We sleep in a traditional house.
+    
+    <br><br>
+    <b>Day 3: Elephant Forest Sanctuary</b>
+    <br><b>7:30 AM:</b> We have breakfast at the village and say goodbye to the family.
+    <br><b>8:00 AM:</b> We travel by car to another minority village.
+    <br><b>8:30 AM:</b> We visit the village and learn about the houses and Bunong culture.
+    <br><b>9:30 AM:</b> We walk to the waterfalls and the elephants' habitat.
+    <br><b>10:00 AM:</b> We walk through the forest to where the elephants live.
+    <br><b>10:30 AM:</b> Before meeting the elephants, the guide explains the safety rules, the project goals and the importance of protecting Mondulkiri’s wildlife and habitat.
+    We meet and feed the elephants and follow them to observe how they roam freely and eat in the jungle. We observe their natural behaviors, such as how they consume bamboo, grasses, and various plant roots for natural medicine.
+    <br><b>12:00 PM</b> We hike to the Sanctuary’s base area, located by the river, to enjoy a local meal. After lunch, you can ask all the questions you have to the guide and relax in a hammock while enjoying jungle views. 
+    You might spot birds and other wildlife, and you can swim at our beautiful waterfall.
+    <br><b>2:00 PM</b> The mahouts (caretakers) guide the elephants into the water for their daily shower and mud bath. The elephants enjoy grooming, scratching against trees, and playing in the mud. You can swim with the elephants, it is an unforgettable (and potentially messy) experience. 
+    <br><b>3:00 PM</b> We say goodbye to the elephants and the Sanctuary team, and we hike out of the forest back to the car and drive to a coffee plantation to see tropical fruits like coffee and avocados.
+    <br><b>5:00 PM:</b> We arrive back in Sen Monorom.
+
+
 - title: "Didn't Find What You Were Looking For?"
   days: ""
   price: ""
   code: "x"
+  btn-text: "Contact Us"
   short-description: "Please contact us for a personalized experience."
   description: ""
-  btn-text: "Contact Us"

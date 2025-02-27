@@ -49,21 +49,24 @@
                 <!-- Modal Images -->
                 <div class="row mobile-scrollable-row">
                   {% for i in (1..3) %}
-                  <div class="glightbox col s6 m4">
-                    <!-- <a href="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" data-gallery="g1"> -->
+                  <div class="col s6 m4">
+                    <a href="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" data-gallery="g1" class="glightbox">
                     <img src="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" alt="" class="responsive-img">
-                    <!-- </a> -->
+                    </a>
                   </div>
                   {% endfor %}
                 </div>
 
                 <!-- Tour Info -->
                 <div class="container">
-                  <div class="custom-title">{{ tour.title }}</div>
-                  <span class="subtitle grey-text">{{ tour.bed }}</span>
-                  <p style="text-align:justify;">
-                    DESCRIPTION:{{ tour.description }}
-                  </p>
+                  <div class="custom-title uppercase">{{ tour.title }}</div>
+                  <span class="subtitle grey-text">{{ tour.days }}</span>
+                  <div class="modal-info">
+                    <h4>Highlights:</h4>
+                    {{ tour.highlights }}
+                    <h4>Itinerary:</h4>
+                    {{ tour.itinerary }}
+                  </div>
                 </div>
 
                 <!-- Price, "Book Now", "Close" -->
