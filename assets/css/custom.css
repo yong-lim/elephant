@@ -132,6 +132,42 @@ img.rectangular {
   }
 }
 
+.tour-modal {
+  padding: 20px;
+
+  &:not(:first-child) {
+    margin: 20px 0 0 0;
+    padding-top: 20px;
+    border-top: #0d6738 2px solid;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.modal {
+  width: 90%;
+  max-height: 90vh;
+  margin-top: -5vh;
+  border-radius: 10px;
+
+  .modal-footer {
+    padding: 10px 20px;
+    height: auto;
+  }
+}
+
+.modal-info {
+  text-align: justify;
+  margin-bottom: 30px;
+
+  h4 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+}
+
 .review {
   margin: 0 0 22px 0;
 
@@ -153,7 +189,6 @@ img.rectangular {
     padding-top: 5px;
   }
 }
-
 
 .collapsible {
   border-radius: 10px;
@@ -206,23 +241,11 @@ img.rectangular {
   }
 }
 
-.bunong p {
+.d-vya p {
   margin: 10px 0 40px 0;
 
   &:last-child {
     margin-bottom: 0;
-  }
-}
-
-.modal {
-  width: 90%;
-  max-height: 90vh;
-  margin-top: -5vh;
-  border-radius: 10px;
-
-  .modal-footer {
-    padding: 10px 20px;
-    height: auto;
   }
 }
 
@@ -262,16 +285,6 @@ img.rectangular {
   text-transform: uppercase;
 }
 
-.modal-info {
-  text-align: justify;
-  margin-bottom: 30px;
-
-  h4 {
-    font-size: 1.4rem;
-    margin-top: 30px;
-  }
-}
-
 .custom-logo {
   font-size: 1rem;
   font-family: "Nunito";
@@ -297,38 +310,19 @@ img.rectangular {
   }
 }
 
-footer .footer-bg {
-  margin-bottom: -5px;
-  height: 50vh;
-  object-fit: cover;
-}
-
-.footer-logo {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
-  place-self: center;
-}
-
-/* .name {
-  font-size: 2rem;
-  font-weight: 500;
-  margin: 0;
-} */
-
-
-.tour {
-  padding: 20px;
-
-  &:not(:first-child) {
-    margin: 20px 0 0 0;
-    padding-top: 20px;
-    border-top: #0d6738 2px solid;
+footer {
+  .footer-bg {
+    margin-bottom: -5px;
+    height: 50vh;
+    object-fit: cover;
   }
 
-  &:last-child {
-    margin-bottom: 20px;
+  .footer-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    place-self: center;
   }
 }
 
