@@ -38,26 +38,25 @@
                 <span class="price text-primary">{{ tour.price }}</span>
                 <a href="#contact" class="btn">{{ tour.btn-text }}</a>
               </div>
-
-
             </div>
 
             <!-- Modal -->
+            {% unless tour.description == "" %}
             <div id="modal{{ forloop.index }}" class="modal center-align">
-              <div class="tour">
+              <div class="tour-modal">
 
-                <!-- Modal Images -->
+                <!-- Modal: Images -->
                 <div class="row mobile-scrollable-row">
                   {% for i in (1..3) %}
                   <div class="col s6 m4">
                     <a href="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" data-gallery="g1" class="glightbox">
-                    <img src="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" alt="" class="responsive-img">
+                      <img src="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" alt="" class="responsive-img">
                     </a>
                   </div>
                   {% endfor %}
                 </div>
 
-                <!-- Tour Info -->
+                <!-- Modal: Tour Info -->
                 <div class="container">
                   <div class="custom-title uppercase">{{ tour.title }}</div>
                   <span class="subtitle grey-text">{{ tour.days }}</span>
@@ -69,7 +68,7 @@
                   </div>
                 </div>
 
-                <!-- Price, "Book Now", "Close" -->
+                <!-- Modal: Price, "Book Now", "Close" -->
                 <div class="container space-between">
                   <span class="price text-primary">{{ tour.price }}</span>
                   <a href="#contact" class="btn modal-close">Book Now</a>
@@ -78,10 +77,10 @@
               </div>
 
             </div>
+            {% endunless %}
 
           </div>
         </div>
-
 
         {% if remainder == 0 %}
       </div>
