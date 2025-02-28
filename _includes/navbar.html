@@ -1,31 +1,46 @@
 <!-- Section: Navbar -->
 <section>
   <div id="backtop">&#9650;</div>
-  <div id="home" class="navbar-fixed scrollspy">
-    <nav class="teal">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="#home" class="brand-logo">{{ site.title }}</a>
-          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            {% for nav in site.data.nav %}
-            <li>
-              <a href={{ nav.link }}>{{ nav.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
+  <div class="navbar-fixed" style="position:absolute;" id="home">
+    <nav class="custom-nav">
+      <div class="nav-wrapper">
+
+        <!-- Logo & Title -->
+        <a href="#home" class="custom-logo">
+          <img src="assets/img/logo.png" alt="" class="hide-on-small-only">
+          <span>{{ site.title }}</span>
+        </a>
+
+        <!-- Mobile Hamburger Menu -->
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <!-- Nav Links -->
+        <ul class="right hide-on-med-and-down">
+          {% for nav in site.data.nav %}
+          <li><a href="{{ nav.link }}" style="text-transform: uppercase;">{{ nav.title }}</a></li>
+          {% endfor %}
+          <a href="#contact" class="btn btn-white text-primary">Book a Visit</a>
+        </ul>
       </div>
     </nav>
   </div>
 
-  <ul class="sidenav" id="mobile-nav">
-    {% for nav in site.data.nav %}
-    <li>
-      <a href={{ nav.link }}>{{ nav.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  <!-- Mobile Side-Navbar -->
+  <div class="sidenav bg-primary" id="mobile-nav" style="padding-top: 10px;">
+
+    <a href="#home" class="custom-logo white-text">
+      <img src="assets/img/logo.png" alt="">
+      <span style="display: inline-block; vertical-align: middle;"
+        class="color-primary">Elephant<br>Community<br>Project</span>
+    </a>
+
+    <ul>
+      {% for nav in site.data.nav %}
+      <li><a href={{ nav.link }} class="sidenav-close white-text" style="text-transform: uppercase;">{{ nav.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>

@@ -1,24 +1,103 @@
-<!-- Section: Tours -->
-<section id="tours" class="section section-gallery scrollspy grey lighten-4">
-  <div class="container">
-    <div class="row">
-        <div class="col s12 m12 l10 offset-l1">
-          <h4 class="teal-text center">Pick a tour that suits your adventure appetite!</h4>
-          <ul class="collapsible" data-collapsible="accordion">
-            {% for tour in site.data.tours %}
-            <li>
-              <div class="collapsible-header">
-                <i class="material-icons teal-text" style="padding-right: 2em";>{{ tour.icon }} file_download</i>
-                {{ tour.title }}
+<!-- Section: rooms -->
+<span id="tours"></span>
+<section class="section scrollspy">
+  <div class="container center-align">
+    <h2 class="custom-header">Our Tours</h2>
+
+    <p class="subtitle text-primary center">
+      All our tours include <b>meals, a local English-speaking guide, transportation</b> from/to Sen Monorom and <b>unforgettable memories</b>.<br>
+    </p>
+
+    <div class="mobile-scrollable-row">
+
+      {% for tour in site.data.tours %}
+
+      <!-- create a row around every 3 elements -->
+      {% assign remainder = forloop.index | modulo: 3 %}
+      {% if remainder == 1 %}
+      <div class="row stretch-y">
+        {% endif %}
+
+        <div class="col l4">
+          <div class="card tour-card" id="tour.code">
+
+            <!-- Card Image -->
+            <div class="card-image">
+              <a href="#modal{{ forloop.index }}" class="modal-trigger">
+                <img src="assets/img/tours/{{ tour.code }}-cover.jpg" alt="" class="responsive-img">
+              </a>
+            </div>
+
+            <!-- Card Content -->
+            <div class="card-content">
+              <div class="card-info">
+                <span class="card-title subheader">{{ tour.title }}</span>
+                <span class="subtitle grey-text">{{ tour.days }}</span>
+                <p>{{ tour.short-description }}</p>
+                {% unless tour.description == "" %}
+                <a href="#modal{{ forloop.index }}" class="btn-flat modal-trigger text-primary">More Information</a>
+                {% endunless %}
               </div>
-              <div class="collapsible-body">
-                <blockquote>{{ tour.detail | markdownify }}</blockquote>
+              <div class="card-action space-between">
+                <span class="price text-primary">{{ tour.price }}</span>
+                <a href="#contact" class="btn">{{ tour.btn-text }}</a>
               </div>
-            </li>
-            {% endfor %}
-          </ul>
+            </div>
+
+            <!-- Modal -->
+            {% unless tour.description == "" %}
+            <div id="modal{{ forloop.index }}" class="modal center-align">
+              <div class="tour-modal">
+
+                <!-- Modal: Images -->
+                <div class="row mobile-scrollable-row">
+                  {% for i in (1..3) %}
+                  <div class="col s6 m4">
+                    <a href="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" data-gallery="g1" class="glightbox">
+                      <img src="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" alt="" class="responsive-img">
+                    </a>
+                  </div>
+                  {% endfor %}
+                </div>
+
+                <!-- Modal: Tour Info -->
+                <div class="container">
+                  <div class="custom-title uppercase">{{ tour.title }}</div>
+                  <span class="subtitle grey-text">{{ tour.days }}</span>
+                  <div class="modal-info">
+                    <h4>Highlights:</h4>
+                    {{ tour.highlights }}
+                    <h4>Itinerary:</h4>
+                    {{ tour.itinerary }}
+                  </div>
+                </div>
+
+                <!-- Modal: Price, "Book Now", "Close" -->
+                <div class="container space-between">
+                  <span class="price text-primary">{{ tour.price }}</span>
+                  <a href="#contact" class="btn modal-close">Book Now</a>
+                  <a href="#!" class="modal-close btn-flat" style="padding:0;">Close</a>
+                </div>
+              </div>
+
+            </div>
+            {% endunless %}
+
+          </div>
         </div>
+
+        {% if remainder == 0 %}
+      </div>
+      {% endif %}
+      {% endfor %}
+
     </div>
   </div>
 </section>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+</script>

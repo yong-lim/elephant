@@ -1,0 +1,118 @@
+<!-- Section: Reviews -->
+<span id="reviews"></span>
+<section class="section scrollspy">
+  <div class="container reviews">
+    <h2 class="center custom-header">Reviews</h2>
+
+    <div class="row">
+
+      <!-- Col #1 -->
+      <div class="col m6 l4">
+
+        <!-- TripAdvisor Award -->
+        <div class="card review" style="font-size: 0;">
+          <a target="_blank"
+            href="https://www.tripadvisor.com/Attraction_Review-g1893367-d8467849-Reviews-Elephant_Community_Project_Day_Tours-Sen_Monorom_Mondulkiri_Province.html">
+            <img src="assets/img/ta-award.jpg" alt="">
+          </a>
+        </div>
+
+        <!-- D: Felicia -->
+        <div class="card review">
+          <div class="card-header space-between">
+            <div>
+              <p class="custom-title text-primary">{{ site.data.reviews.d.name }}</p>
+              <span class="subtitle grey-text">{{ site.data.reviews.d.country }}</span>
+            </div>
+            <div style="justify-items:right">
+              <img src="assets/img/icons/5-stars.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on Google Maps</div>
+            </div>
+          </div>
+          <div class="card-content">
+            {{ site.data.reviews.d.review }}
+          </div>
+        </div>
+      </div>
+
+      <!-- Col #2 -->
+      <div class="col m6 l4">
+
+        <!-- E: Michela -->
+        <div class="card review">
+          <div class="card-header space-between">
+            <div>
+              <p class="custom-title text-primary">{{ site.data.reviews.e.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.e.country }}</span>
+            </div>
+            <div style="justify-items:right">
+              <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on TripAdvisor</div>
+            </div>
+          </div>
+          <div class="card-content">
+            {{ site.data.reviews.e.review }}
+          </div>
+        </div>
+
+        <!-- A: MA -->
+        <div class="card review">
+          <div class="card-header space-between">
+            <div>
+              <p class="custom-title text-primary">{{ site.data.reviews.a.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.a.country }}</span>
+            </div>
+            <div style="justify-items:right">
+              <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on TripAdvisor</div>
+            </div>
+          </div>
+          <div class="card-content">
+            {{ site.data.reviews.a.review }}
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Col #3 -->
+      <div class="col m6 l4 hide-on-med-and-down">
+
+        <!-- F: Johannes -->
+        <div class="card review">
+          <div class="card-header space-between">
+            <div>
+              <p class="custom-title text-primary">{{ site.data.reviews.f.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.f.country }}</span>
+            </div>
+            <div style="justify-items:right">
+              <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on TripAdvisor</div>
+            </div>
+          </div>
+          <div class="card-content">
+            {{ site.data.reviews.f.review }}
+          </div>
+        </div>
+
+        <!-- C: BM -->
+        <div class="card review">
+          <div class="card-header space-between">
+            <div>
+              <p class="custom-title text-primary">{{ site.data.reviews.c.name }}</p>
+              <span class="subtitle grey-text">from {{ site.data.reviews.c.country }}</span>
+            </div>
+            <div style="justify-items:right">
+              <img src="assets/img/icons/5-circles.png" alt="" class="five-stars">
+              <div class="subtitle grey-text">on TripAdvisor</div>
+            </div>
+          </div>
+          <div class="card-content">
+            {{ site.data.reviews.c.review }}
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
