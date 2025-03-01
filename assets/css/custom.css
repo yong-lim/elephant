@@ -452,7 +452,7 @@ footer .footer-logo {
 }
 
 img.cover {
-  height: 100vh;
+  height: 70vh;
   object-fit: cover;
 }
 
@@ -491,6 +491,10 @@ img.cover {
 
   .modal {
     width: 70%;
+  }
+
+  img.cover {
+    height: 100vh;
   }
 
   nav .nav-wrapper {
