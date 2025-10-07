@@ -3,10 +3,17 @@ services:
   jekyll:
     image: bretfisher/jekyll-serve
     container_name: elephane
-    working_dir: /srv
+    working_dir: /srv-jekyll
     volumes:
-      - .:/srv
+      - .:/srv-jekyll
+    expose: '5747'
     ports:
       - '5747:5747'
       - '35747:35747'
-    command: bundle exec jekyll s --force_polling -H 0.0.0.0 -P 5747 -l --trace --livereload-port 35747
+    command: |
+      bundle exec jekyll serve
+      --trace --force_polling
+      --host 0.0.0.0
+      --port 5747
+      --livereload
+      --livereload-port 35747
