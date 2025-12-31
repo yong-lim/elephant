@@ -11,12 +11,13 @@ function formFocus() {
 function formReset() {
   $('#alert-field').show()
     .html("<span><p>Thank you. We'll get back to you asap.</p></span><br>");
-  document.getElementById("formID").reset();
   setTimeout(() => {
+    // document.getElementById("formID").reset();
     $('#sendButton').show();
     $('#alert-field').hide();
-    console.log('This alert appeared after 3 second!'); 
-  }, 2000);
+    $("formID").reset();
+    console.log('This alert appeared after 3 second!');
+  }, 3000);
 }
 
 function pleaseWaite() {
@@ -41,7 +42,7 @@ function postElephant(e) {
   $.ajax({
     //The public Google Form url, but replace /view with /formResponse
     url: formURL,
-    data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
+    data: $('#formID').serialize(), //Nifty jquery function that gets all the input data
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
     mode: 'cors',
@@ -50,7 +51,7 @@ function postElephant(e) {
       0: function(data) { //0 is when Google gives a CORS error, don't worry it went through
         //success
         formReset();
-       }, 
+       },
        200: function(data) {//200 is a success code. it went through!
         //success
         // $('#form-success').text('hooray! 200');
@@ -62,7 +63,7 @@ function postElephant(e) {
           .html("<span><p><b>Oh no! something went wrong. Please let us know of your problem.</b></p></span>");
         alert('Oh no! something went wrong. Please let us know of your problem.');
       }
-    }  
+    }
   });
 }
 
@@ -70,7 +71,7 @@ function sendElephant(e) {
   e.preventDefault();
 
   console.log("in sendElephant");
-  
+
   // const POST_URL = 'https://script.google.com/macros/s/AKfycbwQ_wdqOBA_Z-29b9s2BZ7GHB3bGhlVzRL2hNwKdp-KoTQ5vhQ5bxz8uinBuKwvKDzP/exec'
   // const postRequest = {
   //   name: e.target['name-field'].value,
@@ -78,7 +79,7 @@ function sendElephant(e) {
   //   email: e.target['email-field'].value,
   //   body: e.target['body-field'].value
   // };
-  
+
   const POST_URL = 'https://script.google.com/macros/s/AKfycbz8JqDu6LcJ4N0BpFuXCFL35Vljk7Bajlm09vFP6qR7XQIB_GpeiOgfh1N8kwX7Hm7pYQ/exec'
   const postRequest = {
     name: e.target['fullname'].value,
@@ -137,4 +138,3 @@ function onTurnstileExpired() {
   $('#sendButton').addClass('hidden');
   $('#cf-turnstile').removeClass('hidden');
 }
-
