@@ -12,10 +12,9 @@ function formReset() {
   $('#alert-field').show()
     .html("<span><p>Thank you. We'll get back to you asap.</p></span><br>");
   setTimeout(() => {
-    // document.getElementById("formID").reset();
+    document.getElementById("formID").reset();
     $('#sendButton').show();
     $('#alert-field').hide();
-    $("formID").reset();
     console.log('This alert appeared after 3 second!');
   }, 3000);
 }
