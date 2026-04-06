@@ -51,12 +51,18 @@
 
                 <!-- Modal: Images -->
                 <div class="row mobile-scrollable-row">
-                  {% for i in (1..3) %}
+                  {% capture img_path %}assets/img/tours/{{ tour.code }}/{% endcapture %}
+                  {% assign gallery_images = site.static_files | where_exp: "item", "item.path contains img_path" %}
+                  {% for image in gallery_images %}
+                  {% if forloop.index <= 3 %} 
                   <div class="col s6 m4">
-                    <a href="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" data-gallery="g1" class="glightbox">
-                      <img src="assets/img/tours/{{ tour.code }}-{{ i }}.jpg" alt="" class="responsive-img">
+                    <a href="{{ site.baseurl }}{{ image.path }}" data-gallery="{{ tour.code }}" class="glightbox">
+                      <img src="{{ site.baseurl }}{{ image.path }}" alt="" class="responsive-img">
                     </a>
                   </div>
+                  {% else %}
+                    <a href="{{ site.baseurl }}{{ image.path }}" data-gallery="{{ tour.code }}" class="glightbox"></a>
+                  {% endif %}
                   {% endfor %}
                 </div>
 
