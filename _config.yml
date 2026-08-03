@@ -20,7 +20,7 @@
 
 title: Elephant Community Project
 email: tours@elephantcommunityproject.org
-description: "Ethical Elephant and Jungle Tours in Mondulkiri, Cambodia. 
+description: "Ethical Elephant and Jungle Tours in Mondulkiri, Cambodia.
   We offer unique experiences to interact with elephants in their natural habitat and support the local indigenous Bunong Community."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname n protocol for your site, e.g. http://example.com
@@ -51,3 +51,5 @@ exclude:
   - .bundle/
   - CNAME
   - README.md
+  - podman-compose.yml
+  - .jj/
