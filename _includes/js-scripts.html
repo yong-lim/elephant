@@ -56,4 +56,21 @@
     autoplayVideos: true
   });
 
+  function calcAge(birthDateString) { // Format: "YYYY-MM-DD"
+    const today = new Date();
+    const birthDate = new Date(birthDateString);
+
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    // If today's month is before birth month, OR
+    // it's the same month but today's day is before birth day, subtract 1
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+
+  $('#age-el-luc').html(calcAge("1973-01-15") + " y.o. - 5 tons");
+  $('#age-el-ben').html(calcAge("1988-01-15") + " y.o. - 3.5 tons");
+  $('#age-el-pon').html(calcAge("1980-01-15") + " y.o. - 5 tons");
 </script>
