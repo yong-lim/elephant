@@ -2,7 +2,7 @@
 services:
   jekyll:
     image: bretfisher/jekyll-serve
-    container_name: elephane
+    container_name: elephant
     working_dir: /srv-jekyll
     volumes:
       - .:/srv-jekyll
