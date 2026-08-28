@@ -54,14 +54,14 @@
                   {% capture img_path %}assets/img/tours/{{ tour.code }}/{% endcapture %}
                   {% assign gallery_images = site.static_files | where_exp: "item", "item.path contains img_path" %}
                   {% for image in gallery_images %}
-                  {% if forloop.index <= 3 %} 
+                  {% if forloop.index <= 3 %}
                   <div class="col s6 m4">
-                    <a href="{{ site.baseurl }}{{ image.path }}" data-gallery="{{ tour.code }}" class="glightbox">
+                    <a href="{{ site.baseurl }}{{ image.path }}" data-gallery="{{ tour.code }}" class="glightbox" data-zoomable="false">
                       <img src="{{ site.baseurl }}{{ image.path }}" alt="" class="responsive-img">
                     </a>
                   </div>
                   {% else %}
-                    <a href="{{ site.baseurl }}{{ image.path }}" data-gallery="{{ tour.code }}" class="glightbox"></a>
+                    <a href="{{ site.baseurl }}{{ image.path }}" data-gallery="{{ tour.code }}" class="glightbox" data-zoomable="false"></a>
                   {% endif %}
                   {% endfor %}
                 </div>
